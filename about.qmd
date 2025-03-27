@@ -1,0 +1,40 @@
+---
+title: "About the FEWsLab"
+format: html
+page-layout: full
+toc: true
+toc-location: left
+---
+
+# Sustainability, Systems, and Environmental Ethics
+
+The FEWsLab investigates the structure and function of interconnections across **food**, **energy**, and **water** systems. Our research integrates **network modeling**, **socio-technical data**, and **ethical analysis** to advance sustainability and environmental resilience. We strive to bridge the gap between fundamental scientific inquiry and actionable policy solutions that address pressing global challenges.
+
+---
+
+# Who We Are
+
+<div style="text-align: center;">
+  ![Dr. Caitlin Grady](images/lab/caitlin_grady.jpg){width=200px}
+</div>
+The FEWsLab is led by **Dr. Caitlin Grady**, Associate Professor of Engineering Management and Systems Engineering at George Washington University and Nonresident Fellow at the Chicago Council on Global Affairs.
+
+Dr. Grady brings a unique combination of academic, policy, and government experience. She has previously served as a faculty member at Penn State, a policy analyst at the U.S. Department of State and the Department of Energy, and as a Legislative Assistant in the U.S. Congress.
+
+Our lab thrives thanks to a talented and diverse team of researchers, students, and collaborators who share a commitment to sustainability and interdisciplinary inquiry.
+
+---
+
+# Research
+
+Our research is supported by the **National Science Foundation**, the **U.S. Department of Agriculture**, and other institutional partners. We pursue interdisciplinary projects that address complex sustainability challenges through systems thinking, data-driven modeling, and policy-relevant analysis.
+
+---
+
+# News and Highlights
+
+- Dr. Grady was named a Nonresident Fellow by the Chicago Council on Global Affairs for her expertise in global food systems, climate change, and sustainability.
+- She was featured in national media coverage discussing the impacts of drought on electricity production and energy prices.
+- In collaboration with PhD student Lauren Dennis, Dr. Grady authored a piece exploring the intersection of climate change and hydropower.
+- She is also a lead author of the American Society of Civil Engineers 2022 Pennsylvania Infrastructure Report Card.
+

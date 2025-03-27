@@ -1,0 +1,68 @@
+project:
+  type: website
+  output-dir: _site
+  preview:
+    port: 5896
+    browser: true
+  render:
+    - "index.qmd"
+    - "about.qmd"
+    - "lab.qmd"              # This will be used as "Team"
+    - "cv.qmd"
+    - "research.qmd"        # Used as News & Publications
+    - "projects.qmd"
+    - "teaching.qmd"
+    - "charts.qmd"
+    - "good-eats.qmd"
+    - "404.qmd"
+    - "da-faq.qmd"
+    - "!research/template.qmd"
+  resources:
+    - "content/"
+    - "css"
+    - "splitkbcompare.html"
+    - "static/"
+
+website:
+  title: "FEWsLab"
+  description: "The research group of Dr. Caitlin Grady at George Washington University"
+  image: images/lab/caitlin_grady.jpg
+  site-url: https://www.fewslab.org
+  favicon: images/favicon/favicon.ico
+  repo-url: https://github.com/YOUR_GITHUB_REPO_HERE
+  search:
+    location: navbar
+    type: overlay
+  back-to-top-navigation: false
+
+  navbar:
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Team"
+        href: lab.qmd
+      - text: "News & Publications"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Projects"
+        href: projects.qmd
+
+  page-footer:
+    center:
+      - text: |
+          Contact: <a href="mailto:caitlin.grady@gwu.edu">caitlin.grady@gwu.edu</a><br>
+          <a href="https://www.linkedin.com/company/fews-lab" target="_blank"><i class="bi bi-linkedin"></i> FEWsLab</a> &nbsp;
+          <a href="https://www.linkedin.com/in/caitlinagrady/" target="_blank"><i class="bi bi-linkedin"></i> Caitlin Grady</a> &nbsp;
+          <a href="https://bsky.app/profile/caitlinagrady.bsky.social" target="_blank"><i class="fa fa-brands fa-bluesky"></i> Bluesky</a><br>
+          Site made with <a href="https://quarto.org/" target="_blank"><img src="https://quarto.org/favicon.png" width="12"> Quarto</a><br>
+          © 2025 FEWsLab
+
+format:
+  html:
+    theme: [default, css/theme.scss]
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    include-in-header: "_includes/header.html"

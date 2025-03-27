@@ -1,0 +1,108 @@
+---
+title: "Projects"
+description: A collection of ongoing and completed research projects from the FEWsLab.
+preview: images/lab/caitlin_grady.jpg
+toc: true
+toc-location: left
+toc-title: "Projects"
+execute: 
+  echo: false
+  message: false
+  warning: false
+---
+
+```{r setup}
+source("_common.R")
+```
+
+### Current Projects
+
+#### Climate Risks and Resilience across Balancing Authorities  
+*2023–ongoing*
+
+PhD student Abbey Kollar is building systems-level models to investigate the impact climate risks might have on electricity generating facilities across the United States at the scale of the Balancing Authority.
+
+- Primary Student: Abbey Kollar  
+
+#### Global Centers Track 2: Green Energy Transitions in the Far North (GET North)  
+*Funded by the National Science Foundation*
+
+This project connects a multidisciplinary, multinational team of researchers with rightsholders and stakeholders in Alaska and northern Sweden. The work examines how best to navigate green energy transitions in these regions with a focus on Indigenous perspectives, infrastructure, and environmental impact.
+
+- Funding Agency: National Science Foundation  
+- Award Total: $249,997  
+
+#### Critical Minerals and the EV Supply Chain  
+
+This project utilizes Life Cycle Assessments and Embedded Resource Accounting scenario modeling to evaluate how the geographic shifts in production impact EV supply chains, resource efficiency, and GHG emissions.
+
+- Primary Student: Sachi Nandurkar  
+
+#### Adaptation in Megacities  
+
+We are analyzing adaptation plans for global megacities to understand how major urban areas plan to respond to climate change. This work builds on the Global Adaptation Mapping Initiative.
+
+- Primary Student: Dhanyasri Bolla  
+
+
+#### Ethical Implications of Connected Critical Infrastructure in the FEW Nexus  
+*2020–2025 | Funded by the NSF*
+
+Funded by the NSF, this project explores infrastructure and stakeholder values to better understand environmental sustainability across the food-energy-water nexus.
+
+- Role: Principal Investigator (PI)  
+- Primary Student: Selena Hinojos  
+- Funding: $509,880  
+
+#### Thriving Agricultural Systems in Urban Landscapes  
+*2019–2024 | Funded by the USDA*
+
+Funded by the United States Department of Agriculture, this collaborative project aims to develop thriving and sustainable agricultural systems within urban regions. The FEWsLab contributes by modeling embedded nitrogen and phosphorus flows in the Chesapeake Bay Watershed.
+
+- Role: Co-Principal Investigator (Co-PI)  
+- Primary Student: Paniz Mohammadpour  
+- Project Total: $8,975,094  
+- FEWsLab Portion: ~$400,000  
+- Interactive Dashboard: [n-project.fewslab.org](https://n-project.fewslab.org) – built to visualize data and outcomes from this research
+
+---
+
+### Previously Funded Projects
+
+#### Global Adaptation Mapping Initiative (GAMI)
+A global initiative to synthesize peer-reviewed literature on climate change adaptation, contributing to the IPCC’s 6th Assessment Report.
+
+- Primary student: Sarah Torhan
+
+#### Ethics, Security, and Critical Network Project
+This Rock Ethics Institute-funded project investigates normative and ethical questions around risk and security in critical infrastructure systems.
+
+- Role: Principal Investigator (PI)
+- Collaboration: Dr. Sarah Rajtmajer
+
+#### Landscape-U: Graduate Partnerships for Regenerative Landscape Design (2018–2023)
+A NSF NRT-funded program exploring food, energy, and water issues in the Chesapeake Bay and globally.
+
+- Role: Co-Principal Investigator (Co-PI)
+- Students: Paniz Mohammadpour, Lauren Dennis
+- Funding: $3,000,000
+
+#### Climate Change Impacts on Hydropower and Grid Security
+Dr. Grady and PhD student Lauren Dennis developed systems-level models assessing climate change effects on hydropower and Balancing Authority risk profiles.
+
+- Role: Principal Investigator (PI)
+- Primary Student: Lauren Dennis
+
+#### Maritime Security and the FEWs Nexus (2019)
+Funded by the Center for Security Research and Education, this project investigated supply chain vulnerabilities and resilience in maritime food, energy, and water networks.
+
+- Role: Principal Investigator (PI)
+- Support: Faculty Fellowship
+- Student: Paniz Mohammadpour
+
+#### Using Footprint Methods to Manage the WFE Nexus
+This internally supported project examined how to quantify and model water, food, and energy flows in SEI networks and identified critical feedback loops.
+
+- Role: Principal Investigator (PI)
+- Student: Tasnuva Mahjabin
+

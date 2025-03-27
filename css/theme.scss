@@ -1,0 +1,220 @@
+@import "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900";
+@import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,600;0,800;0,900&display=swap&text=0123456789";
+
+/*-- scss:defaults --*/
+
+/* 🎨 Updated colors */
+$primary-color: #003e5c;               // updated blue
+$blue: #003e5c;
+$primary-color-dark: #002737;
+$secondary-color: #a2c744;            // new green
+$secondary-color-trans: rgba(162, 199, 68, 0.2);
+$tertiary-color: #f4b942;             // soft gold
+
+$body-bg: #f6fafd;
+$body-color: $primary-color-dark;
+$footer-bg: $primary-color;
+$footer-fg: white;
+
+$navbar-bg: $body-bg;
+$navbar-fg: $primary-color;
+$navbar-hl: $secondary-color;
+$dropdown-link-color: $primary-color;
+
+$tabset-border-color: $navbar-bg;
+
+$navbar-font-family: "Raleway";
+$headings-font-family: "Raleway";
+$headings-color: $primary-color-dark;
+$font-family-base: "Raleway";
+
+$link-color: $primary-color;
+$link-hover-color: $secondary-color;
+
+$code-block-bg: white;
+$code-color: black;
+$code-block-border: false;
+$code-border-radius: 25px;
+
+$pagination-active-bg: $primary-color;
+$pagination-active-color: white;
+$pagination-active-border-color: $primary-color;
+
+/*-- scss:rules --*/
+
+body {
+  font-family: "Roboto", $font-family-base, sans-serif;
+}
+h1, h2, h3, .h1, .h2, .h3 {
+  font-family: "Roboto", $font-family-base, sans-serif;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: $secondary-color;
+}
+.nav-link.active {
+  color: $secondary-color !important;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Buttons and icon links */
+.icon-link {
+  background-color: $primary-color;
+  color: white;
+}
+.icon-link:hover {
+  background-color: $secondary-color;
+  color: white;
+}
+
+.icon-link-summary {
+  background-color: $primary-color-dark;
+  color: white;
+  padding: 4px 5px;
+  margin: 1px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+.icon-link-summary:hover {
+  background-color: $secondary-color;
+  color: white;
+  box-shadow: 0px 10px 15px $secondary-color-trans;
+  transform: translateY(-2px);
+}
+
+/* Panel tabs */
+.panel-tabset [role="tablist"] {
+  border-bottom: 5px solid $tabset-border-color;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 5px;
+  width: 100%;
+}
+.panel-tabset [role="tab"] {
+  border: 1px solid $tabset-border-color;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  font-size: 0.75em;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: $navbar-bg;
+  margin: 2px;
+}
+.panel-tabset [role="tab"][aria-selected="true"] {
+  background-color: $navbar-bg;
+  color: $body-bg;
+}
+
+/* Collapsible details summary */
+details > summary {
+  color: $navbar-bg;
+  font-size: 1em;
+  border-radius: 20px;
+  background-color: $code-block-bg;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-family: $font-family-monospace;
+}
+
+/* Tables */
+thead, tbody, tfoot, tr, td, th {
+  border-style: none;
+  padding-bottom: 2px !important;
+}
+
+/* Callouts */
+div.callout-note.callout {
+  border-left-color: $navbar-bg;
+}
+div.callout-note.callout-style-default>.callout-header {
+  background-color: $code-block-bg;
+  color: $navbar-bg;
+}
+
+/* TOC styling */
+.sidebar nav[role=doc-toc] ul>li>ul>li {
+  font-size: 0.85em;
+}
+
+/* Aside text */
+aside, .column-margin {
+  color: $tertiary-color;
+  font-size: 0.825rem;
+}
+
+/* Blockquote styling */
+blockquote {
+  border-left: 0.25rem solid $tertiary-color;
+  font-style: italic;
+  color: $tertiary-color;
+}
+blockquote p {
+  padding: 3px;
+  margin: 0 2px;
+  border-radius: 5px;
+  padding-left: 2em;
+}
+
+/* Code blocks */
+pre {
+  border-radius: 5px;
+  color: #fff;
+  background-color: $primary-color-dark;
+  padding: 5px 5px 5px 18px;
+}
+
+/* Floating images */
+.float-left img {
+  float: left;
+  padding: 5px 10px 5px 0px;
+}
+.float-right img {
+  float: right;
+  padding: 5px 0px 5px 10px;
+}
+
+/* Search highlight fix */
+.aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item.search-result-more,
+.aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item .search-result-section,
+.aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item .search-result-text,
+.aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item .search-result-title-container,
+.aa-DetachedOverlay li.aa-Item[aria-selected=true] .search-item .search-result-text-container,
+#quarto-search-results li.aa-Item[aria-selected=true] .search-item.search-result-more,
+#quarto-search-results li.aa-Item[aria-selected=true] .search-item .search-result-section,
+#quarto-search-results li.aa-Item[aria-selected=true] .search-item .search-result-text,
+#quarto-search-results li.aa-Item[aria-selected=true] .search-item .search-result-title-container,
+#quarto-search-results li.aa-Item[aria-selected=true] .search-item .search-result-text-container {
+  color: white;
+}
+
+/* Slide Embeds */
+.golden-ratio-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 61.8%;
+}
+.golden-ratio-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #5654A2;
+}

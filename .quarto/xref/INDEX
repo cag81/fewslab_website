@@ -1,0 +1,44 @@
+{
+  "index.qmd": {
+    "index.html": "9b740bec"
+  },
+  "blog/index.qmd": {
+    "index.html": "c5b292dd"
+  },
+  "blog/2022-12-26-why-chess-is-better-than-golf/index.qmd": {
+    "index.html": "42067515"
+  },
+  "research/index.qmd": {
+    "index.html": "3bdab60e"
+  },
+  "da-faq.qmd": {
+    "da-faq.html": "254c52fb"
+  },
+  "about.qmd": {
+    "about.html": "70483f82"
+  },
+  "lab.qmd": {
+    "lab.html": "fd59a3a8"
+  },
+  "cv.qmd": {
+    "cv.html": "d14783be"
+  },
+  "teaching.qmd": {
+    "teaching.html": "bcd60493"
+  },
+  "projects.qmd": {
+    "projects.html": "8e951206"
+  },
+  "research.qmd": {
+    "research.html": "66e6a8e0"
+  },
+  "good-eats.qmd": {
+    "good-eats.html": "700ba277"
+  },
+  "404.qmd": {
+    "404.html": "4ee381c0"
+  },
+  "charts.qmd": {
+    "charts.html": "94e5e027"
+  }
+}

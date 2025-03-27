@@ -1,0 +1,27 @@
+---
+image: "images/lab/logo/logo.png"
+execute: 
+  echo: false
+  warning: false
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/company/fews-lab
+---
+
+```{r setup}
+source("_common.R")
+```
+
+### Welcome to the FEWsLab Website
+
+At **FEWsLab**, we investigate the form and function of interconnections across **food**, **energy**, and **water** systems.
+
+Our lab combines **Network modeling**, **Socio-technical data**, **Ethical and policy analyses**.
+
+We aim to foster a more **sustainable** and **secure** environment, balancing **fundamental research** with **practical policy outcomes**.
+
+---
+
+> *"Sustainability is not a goal — it's a process of systems thinking, ethical responsibility, and adaptive innovation."*
