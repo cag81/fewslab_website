@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "af4360b4-4a70-4cbe-87f6-43fa708bbace"
+      url: "https://fewslab.netlify.app"
