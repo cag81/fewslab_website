@@ -8,6 +8,7 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -17,9 +18,15 @@ jobs:
         with:
           r-version: '4.2.0'
 
-      - name: Install R packages (if needed)
+      - name: Install R packages (base and remotes)
         run: |
-          Rscript -e 'install.packages(c("quarto"))'
+          install.packages(c("remotes", "stringr", "pkgdown"), dependencies = TRUE)
+        shell: Rscript {0}
+
+      - name: Install additional dependencies from DESCRIPTION (if any)
+        run: |
+          remotes::install_deps(dependencies = TRUE)
+        shell: Rscript {0}
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
