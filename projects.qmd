@@ -63,7 +63,7 @@ Funded by the United States Department of Agriculture, this collaborative projec
 - Primary Student: Paniz Mohammadpour  
 - Project Total: $8,975,094  
 - FEWsLab Portion: ~$400,000  
-- Interactive Dashboard: [nitrogen-project.fewslab.org](https://n-project.fewslab.org) – built to visualize data and outcomes from this research
+- Interactive Dashboard: [nitrogen-project.fewslab.org](https://nitrogen-project.fewslab.org) – built to visualize data and outcomes from this research
 
 ---
 
