@@ -8,114 +8,71 @@ toc-location: left
 
 ## Graduate Students
 
-::: {.grid}
-
-::: {.g-col-3}
-![ ](images/lab/dhanya.jpg){width=250px height=300px}
-:::
-
-::: {.g-col-9}
 ### **Dhanyasri Bolla**
+<div style="text-align: center;">
+  <img src="images/lab/dhanya.jpg" width="250px">
+</div>
 
 Dhanyasri is a master’s student in the Engineering Management program at George Washington University (GWU). She received her Bachelor of Technology in Electronics and Communication Engineering from the Sardar Vallabhbhai National Institute of Technology in 2023. Currently pursuing her master’s degree, Dhanya is interested in shifting into the finance field and is taking relevant courses to achieve this goal. Her undergraduate research focused on analyzing the performance of 5G waveforms over a 3D channel model. Professionally, she is skilled in Python, data visualization using Tableau and front-end web development. Her extracurricular interests include event management at university events and photography.
-:::
 
-:::
+---
 
-::: {.grid}
-
-
-::: {.g-col-3}
-![ ](images/lab/abbey.jpg){width=250px height=300px}
-:::
-
-::: {.g-col-9}
 ### **Abbey Kollar**
+<div style="text-align: center;">
+  <img src="images/lab/abbey.jpg" width="250px">
+</div>
 
-Abbey is a doctoral student in the Systems Engineering Ph.D. program at GWU. She received her B.S. in Chemical Engineering with honors and a minor in Applied Economics from The Pennsylvania State University in 2023. Abbey’s undergraduate research focused on the conversion of plastics and biomass to oil and reducing nitrous oxide production from fertilizer use. Her research interests include renewable energy systems, climate change, economics, and policy. As a [DTAIS fellow](https://dtais.engineering.gwu.edu/), Abbey will integrate trustworthy AI into her research as well. When not in the office or class, Abbey is often found walking around the National Mall and exploring D.C.
-:::
+Abbey is a doctoral student in the Systems Engineering Ph.D. program at GWU. She received her B.S. in Chemical Engineering with honors and a minor in Applied Economics from The Pennsylvania State University in 2023. Abbey’s undergraduate research focused on the conversion of plastics and biomass to oil and reducing nitrous oxide production from fertilizer use. Her research interests include renewable energy systems, climate change, economics, and policy. As a [DTAIS fellow](https://dtais.engineering.gwu.edu/), Abbey will integrate trustworthy AI into her research as well.
 
-:::
+---
 
-
-::: {.grid}
-
-::: {.g-col-3}
-![ ](images/lab/tarun.jpeg){width=250px height=300px}
-:::
-
-
-::: {.g-col-9}
 ### **Tarun Kumanduri**
+<div style="text-align: center;">
+  <img src="images/lab/tarun.jpeg" width="250px">
+</div>
 
-Tarun is a Master’s student in the Data Analytics Program at George Washington University, having earned a Bachelor’s Degree in Computer Science and Engineering from Jawaharlal Nehru Technological University Hyderabad in 2023. His expertise in Data Analysis, Visualization, and Modeling is enhanced by his interest in Project Management and Strategic Planning. He served as an Operations Intern in the “School Innovation Challenge 2022,” a UNICEF and Government of Telangana initiative. His undergraduate research included projects like “You Walk We Authenticate” in the Machine Learning domain and “Smart Door Receptionist” in the Internet of Things domain. He is a certified Yoga Teacher and the Events Director for the George Washington Desis Student Organization.
-:::
+Tarun is a Master’s student in the Data Analytics Program at George Washington University. He holds a Bachelor’s Degree in Computer Science and Engineering from JNTU Hyderabad. His expertise in Data Analysis, Visualization, and Modeling is enhanced by his interest in Project Management. He served as an Operations Intern in the UNICEF-Government of Telangana “School Innovation Challenge.” He is also a certified Yoga Teacher and the Events Director for the George Washington Desis Student Organization.
 
-:::
+---
 
-
-::: {.grid}
-
-::: {.g-col-3}
-![ ](images/lab/sachi.jpg){width=250px height=300px}
-:::
-
-::: {.g-col-9}
 ### **Sachi Nandurkar**
+<div style="text-align: center;">
+  <img src="images/lab/sachi.jpg" width="250px">
+</div>
 
-Sachi is a master’s student in the Engineering Management program at GWU. She holds a B.Tech in Electronics and Communication from the Indian Institute of Information Technology and is passionate about strategic planning, project management and advanced data analysis. Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles, analyzing industry data, and examining their connections with policy implications. Apart from this, as a Graduate Teaching Assistant, she teaches labs on advanced Excel, SQL, and ERDs at GWU School of Business. She is also a Career Services Ambassador at GWU SEAS where she organizes events and class visits to foster student-faculty connections and develops career analysis dashboards. She interned as a Data Analyst at Infinity Automation Systems and has managed a global student exchange program as a Client Relationship Manager at AIESEC. She loves Formula One and is the author of a WordPress blog called “Constellation of Thoughts.”
-:::
+Sachi is a master’s student in the Engineering Management program at GWU. Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. As a Graduate Teaching Assistant, she teaches labs on advanced Excel, SQL, and ERDs. She is also a Career Services Ambassador and has experience in global program management and data analytics. Sachi loves Formula One and blogs at “Constellation of Thoughts.”
 
-:::
+---
 
-
-::: {.grid}
-
-::: {.g-col-3}
-![ ](images/lab/ji.jpg){width=250px height=300px}
-:::
-
-::: {.g-col-9}
 ### **Ji Qi**
+<div style="text-align: center;">
+  <img src="images/lab/ji.jpg" width="250px">
+</div>
 
-Ji is a graduate student in the Systems Engineering Ph.D. program at GWU. He received his BS in Economic Statistics from Zhengzhou University in 2020 and his MS. in Management Science and Engineering (Industrial Engineering) at Tianjin University in 2023. His past research topics mainly include the following areas: financial risk network construction, systematic risk analysis, product reliability and degradation modeling, Markov Decision Processes Based on Reinforcement Learning. He is trying to combine economy, decision science and network science in his future research. If you are interested in any of the areas mentioned above, you can contact him at ji.qi1@gwmail.gwu.edu. In his free time, he enjoys photography, hiking, and playing guitar. He is also a fan of classical music and Chinese painting.
-:::
-
-:::
+Ji is a graduate student in the Systems Engineering Ph.D. program at GWU. His research interests span financial risk networks, system reliability, and reinforcement learning. Ji enjoys combining economics, decision science, and networks in his work. In his spare time, he is passionate about photography, hiking, guitar, classical music, and Chinese painting.
 
 ---
 
 ## Undergraduate Students
 
-::: {.grid}
-
-::: {.g-col-3}
-![ ](images/lab/becky.png){width=250px height=300px}
-:::
-
-::: {.g-col-9}
 ### **Rebecca Germaine**
+<div style="text-align: center;">
+  <img src="images/lab/becky.png" width="250px">
+</div>
 
-Rebecca is an undergraduate student at GWU studying Public Health with a minor in Psychology. She has engaged in research at the Camden Coalition, evaluating the substance use recovery system in New Jersey to provide recommendations to the Department of Mental Health and Addiction Services. While volunteering on a medical mission in Ghana, she organized sterile procedure supplies and inventory, documented patient encounters, and observed local disease trends. Rebecca was the president of GW Women’s Career Connect, where she facilitated engagement between students and industry professionals from companies such as Google, Mattel, and EY. Her research interests center around the intersection of climate change, environmental health, and public health, particularly in underserved communities such as Arctic indigenous populations.
-:::
-
-:::
-
+Rebecca is an undergraduate student at GWU studying Public Health with a minor in Psychology. She has researched the substance use recovery system in New Jersey and volunteered on medical missions. She was president of GW Women’s Career Connect and is passionate about environmental health, especially among underserved communities like Arctic indigenous populations.
 
 ---
 
-# Principal Investigator
-### Dr. Caitlin Grady
+## Principal Investigator
 
+### **Dr. Caitlin Grady**
 <div style="text-align: center;">
-  ![ ](images/lab/caitlin_grady.jpg){width=250px}
+  <img src="images/lab/caitlin_grady.jpg" width="250px">
 </div>
 
-Dr. Grady is an Associate Professor in the Engineering Management and Systems Engineering Department at The George Washington University in Washington, DC. She is also a Nonresident Fellow for the Chicago Council on Global Affairs. Prior to joining GWU, Dr. Grady served as an Assistant Professor at The Pennsylvania State University.
+Dr. Caitlin Grady is an Associate Professor at GWU and a Nonresident Fellow at the Chicago Council on Global Affairs. Her research covers engineering and policy issues in food, energy, and water systems. She previously worked in federal government roles at the House of Representatives, Department of Energy, and Department of State.
 
-Her academic background and research expertise span a variety of engineering and policy domains across food, energy, and water systems. This includes both qualitative and quantitative approaches to studying systems such as agricultural trade, the electricity grid, natural hazards, and adaptation to climate change.
-
-Before her academic appointments, Dr. Grady held several federal government roles, including with the House of Representatives, the Department of Energy, and the Department of State. In these roles, she worked on a range of issues including agriculture, water and energy, air quality, budget and appropriations, international development, and diplomatic engagement.
 
 **Education:**  
 Ph.D., Civil and Environmental Engineering, Purdue University  
