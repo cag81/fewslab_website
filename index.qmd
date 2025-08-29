@@ -16,12 +16,12 @@ source("_common.R")
 
 ### Welcome to the FEWsLab Website
 
-At **FEWsLab**, we investigate the form and function of interconnections across **food**, **energy**, and **water** systems.
+At **FEWsLab**, we investigate interconnections across **food**, **energy**, and **water** systems.
 
-Our lab combines **Network modeling**, **Socio-technical data**, **Ethical and policy analyses**.
+Our lab combines **Systems modeling**, **Socio-technical data**, **Ethical and policy analyses**.
 
-We aim to foster a more **sustainable** and **secure** environment, balancing **fundamental research** with **practical policy outcomes**.
+We aim to foster a more **economic**, **sustainable**, and **secure** environment, balancing **fundamental research** with **practical policy insights**.
 
 ---
 
-> *"Sustainability is not a goal — it's a process of systems thinking, ethical responsibility, and adaptive innovation."*
+> *"The future of resource security lies in mapping the invisible threads that bind our food, energy, and water systems together"*
