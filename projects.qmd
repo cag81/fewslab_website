@@ -17,6 +17,13 @@ source("_common.R")
 
 ### Current Projects
 
+#### Healthy Food Systems 
+*Funded by the Patrick J. McGovern Foundation*
+
+In collaboration with DC Central Kitchen (DCCK) and Partnership for a Healthier America, GWU is working to evaluate DCCK’s Healthy Corners program, a leading national model to advance healthier food choices in urban corner stores.
+- Funding Agency: Patrick J. McGovern Foundation [Project Description](https://globalfoodinstitute.gwu.edu/one-city-many-scaling-best-practices-healthy-corner-stores)
+- Primary Student: Tarun Kumanduri   
+
 #### Climate Risks and Resilience across Balancing Authorities  
 *Funded by the National Science Foundation Graduate Research Fellowship*
 
