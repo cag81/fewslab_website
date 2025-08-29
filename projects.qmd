@@ -18,91 +18,73 @@ source("_common.R")
 ### Current Projects
 
 #### Climate Risks and Resilience across Balancing Authorities  
-*2023–ongoing*
+*Funded by the National Science Foundation Graduate Research Fellowship*
 
-PhD student Abbey Kollar is building systems-level models to investigate the impact climate risks might have on electricity generating facilities across the United States at the scale of the Balancing Authority.
-
+PhD student Abbey Kollar is building systems-level models to investigate the impact climate risks have on electricity generating facilities across the United States at the scale of the Balancing Authority.
+- Funding Agency: National Science Foundation [Award Description](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program)
 - Primary Student: Abbey Kollar  
 
 #### Global Centers Track 2: Green Energy Transitions in the Far North (GET North)  
 *Funded by the National Science Foundation*
 
 This project connects a multidisciplinary, multinational team of researchers with rightsholders and stakeholders in Alaska and northern Sweden. The work examines how best to navigate green energy transitions in these regions with a focus on Indigenous perspectives, infrastructure, and environmental impact.
-
-- Funding Agency: National Science Foundation  
+- Funding Agency: National Science Foundation [Award Description](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2330506&HistoricalAwards=false) 
 - Award Total: $249,997  
 
 #### Critical Minerals and the EV Supply Chain  
+*Funded by the National Institute of Standards and Technology (NIST)*
 
 This project utilizes Life Cycle Assessments and Embedded Resource Accounting scenario modeling to evaluate how the geographic shifts in production impact EV supply chains, resource efficiency, and GHG emissions.
-
-- Primary Student: Sachi Nandurkar  
+- Primary Researcher: Sindhu Ranganath
 
 #### Adaptation in Megacities  
 
-We are analyzing adaptation plans for global megacities to understand how major urban areas plan to respond to climate change. This work builds on the Global Adaptation Mapping Initiative.
-
+We are analyzing adaptation plans for global megacities to understand how major urban areas plan to respond to climate change. This work builds on the [Global Adaptation Mapping Initiative](https://globaladaptation.github.io/).
 - Primary Student: Dhanyasri Bolla  
 
-
 #### Ethical Implications of Connected Critical Infrastructure in the FEW Nexus  
-*2020–2025 | Funded by the NSF*
+*Funded by the National Science Foundation*
 
 Funded by the NSF, this project explores infrastructure and stakeholder values to better understand environmental sustainability across the food-energy-water nexus.
-
-- Role: Principal Investigator (PI)  
+- Funding Agency: National Science Foundation [Award Description](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244715&HistoricalAwards=false)
 - Primary Student: Selena Hinojos  
 - Funding: $509,880  
 
 #### Thriving Agricultural Systems in Urban Landscapes  
-*2019–2024 | Funded by the USDA*
+*Funded by the US Department of Agriculture*
 
-Funded by the United States Department of Agriculture, this collaborative project aims to develop thriving and sustainable agricultural systems within urban regions. The FEWsLab contributes by modeling embedded nitrogen and phosphorus flows in the Chesapeake Bay Watershed.
-
-- Role: Co-Principal Investigator (Co-PI)  
-- Primary Student: Paniz Mohammadpour  
+This collaborative project aims to develop thriving and sustainable agricultural systems within urban regions. The FEWsLab contributes by modeling embedded nitrogen and phosphorus flows in the Chesapeake Bay Watershed.
+- Primary Student: Paniz Mohammadpour *previous*, Tarun Kumanduri *current*
 - Project Total: $8,975,094  
-- FEWsLab Portion: ~$400,000  
+- FEWsLab Portion: ~$500,000  
 - Interactive Dashboard: [nitrogen-project.fewslab.org](https://nitrogen-project.fewslab.org) – built to visualize data and outcomes from this research
 
 ---
 
-### Previously Funded Projects
+### Previous Projects
 
 #### Global Adaptation Mapping Initiative (GAMI)
 A global initiative to synthesize peer-reviewed literature on climate change adaptation, contributing to the IPCC’s 6th Assessment Report.
-
 - Primary student: Sarah Torhan
 
 #### Ethics, Security, and Critical Network Project
 This Rock Ethics Institute-funded project investigates normative and ethical questions around risk and security in critical infrastructure systems.
-
-- Role: Principal Investigator (PI)
 - Collaboration: Dr. Sarah Rajtmajer
 
 #### Landscape-U: Graduate Partnerships for Regenerative Landscape Design (2018–2023)
 A NSF NRT-funded program exploring food, energy, and water issues in the Chesapeake Bay and globally.
-
-- Role: Co-Principal Investigator (Co-PI)
 - Students: Paniz Mohammadpour, Lauren Dennis
 - Funding: $3,000,000
 
 #### Climate Change Impacts on Hydropower and Grid Security
 Dr. Grady and PhD student Lauren Dennis developed systems-level models assessing climate change effects on hydropower and Balancing Authority risk profiles.
-
-- Role: Principal Investigator (PI)
 - Primary Student: Lauren Dennis
 
 #### Maritime Security and the FEWs Nexus (2019)
 Funded by the Center for Security Research and Education, this project investigated supply chain vulnerabilities and resilience in maritime food, energy, and water networks.
-
-- Role: Principal Investigator (PI)
-- Support: Faculty Fellowship
 - Student: Paniz Mohammadpour
 
 #### Using Footprint Methods to Manage the WFE Nexus
 This internally supported project examined how to quantify and model water, food, and energy flows in SEI networks and identified critical feedback loops.
-
-- Role: Principal Investigator (PI)
 - Student: Tasnuva Mahjabin
 
