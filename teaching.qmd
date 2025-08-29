@@ -16,7 +16,7 @@ source("_common.R")
 
 ### Teaching Philosophy
 
-Dr. Grady’s teaching interests include a variety of water resources, environmental engineering, and environmental policy courses. Her pedagogy blends active learning and problem-based learning approaches, combining student-centered instruction with real-world problems. These methods emphasize critical thinking and the application of technical knowledge to transdisciplinary topics.
+Dr. Grady’s teaching interests include a variety of systems engineering, engineering design, and environmental policy courses. Her pedagogy blends active learning and problem-based learning approaches, combining student-centered instruction with real-world problems. These methods emphasize critical thinking and the application of technical knowledge to transdisciplinary topics.
 
 In recent years, she has taught and guest lectured in several courses, including:
 
@@ -42,6 +42,17 @@ In recent years, she has taught and guest lectured in several courses, including
 **Semester**: Every Spring  
 
 Policy analysis with applications to business management and public policy. Topics include causal-loop diagrams, stock and flow models of business, technology adoption, and marketing. The course incorporates role-based games to explore principles of systems thinking and uses simulation to analyze complex case studies.
+
+#### EMSE 1001: Introduction to Systems Engineering (1 Credit)
+
+::: {.grid}
+
+::: {.g-col-9}
+
+**Institution**: The George Washington University  
+**Semester**: Every Fall  
+
+Core concepts in systems engineering; processes of system decomposition and integration; upfront conceptual design, rapid prototyping, structured testing, balanced work, lean processes, and design for manufacturability.
 
 :::
 
@@ -75,19 +86,15 @@ Policy analysis with applications to business management and public policy. Topi
 
 ---
 
-### Ethics and Engineering Case Competitions
+### Research to Advance Teaching
 
 ![ ](images/teaching.png){width=100%}
 
 ::: {.grid}
 
 ::: {.g-col-9}
-Dr. Grady has organized the Penn State Ethics and Engineering Case Competitions, sponsored by the Rock Ethics Institute. These competitions provided undergraduate students with the opportunity to explore real-world issues at the intersection of engineering and ethics. Participants developed and presented ethical solutions to contemporary challenges in engineering and business. Prizes were awarded to the top three teams.
+Dr. Grady has secured *National Science Foundation* funding to advance understanding around teaching ethics. She is currently working on a multi-year award to develop engaged student learning through coupled ethical-epistemic pedagogy. More about the award can be found [here](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2314334&HistoricalAwards=false)
 
-- **2017 Winners**: William “Louden” Buchanan and Steven Weber  
-- **2018 Winners**: Autumn Deitrick and Krina Patel  
-
-While the 2019 competition was not held, interested students should check with Dr. Grady regarding future opportunities.
 :::
 
 :::
