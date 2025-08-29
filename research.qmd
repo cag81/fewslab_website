@@ -37,6 +37,7 @@ source("_common.R")
 
 ### Google Scholar Profiles
 *For full details on publications see the following Google Scholar profiles*
+
 - [Caitlin Grady](https://scholar.google.com/citations?user=HoSryoQAAAAJ&hl=en)  
 - [Selena Hinojos](https://scholar.google.com/citations?user=40i20T4AAAAJ&hl=en&oi=ao)  
 - [Michael Gomez](https://scholar.google.com/citations?user=ClC7U1QAAAAJ&hl=en)  
