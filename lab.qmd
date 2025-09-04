@@ -8,57 +8,69 @@ toc-location: left
 
 ## Graduate Students
 
+:::float-left
+
+<img src="images/lab/dhanya.jpg" width="150px">
+
 ### **Dhanyasri Bolla**
-<div style="text-align: center;">
-  <img src="images/lab/dhanya.jpg" width="250px">
-</div>
 
 Dhanyasri is a master’s student in the Engineering Management program at George Washington University (GWU). She received her Bachelor of Technology in Electronics and Communication Engineering from the Sardar Vallabhbhai National Institute of Technology in 2023. Currently pursuing her master’s degree, Dhanya is interested in shifting into the finance field and is taking relevant courses to achieve this goal. Her undergraduate research focused on analyzing the performance of 5G waveforms over a 3D channel model. Professionally, she is skilled in Python, data visualization using Tableau and front-end web development. Her extracurricular interests include event management at university events and photography.
 
----
+<br>
+
+<img src="images/lab/abbey.jpg" width="150px">
 
 ### **Abbey Kollar**
-<div style="text-align: center;">
-  <img src="images/lab/abbey.jpg" width="250px">
-</div>
 
 Abbey is a doctoral student in the Systems Engineering Ph.D. program at GWU. She received her B.S. in Chemical Engineering with honors and a minor in Applied Economics from The Pennsylvania State University in 2023. Abbey’s undergraduate research focused on the conversion of plastics and biomass to oil and reducing nitrous oxide production from fertilizer use. Her research interests include renewable energy systems, climate change, economics, and policy. As a [DTAIS fellow](https://dtais.engineering.gwu.edu/), Abbey will integrate trustworthy AI into her research as well.
 
----
+<br>
+
+<img src="images/lab/tarun.jpeg" width="250px">
 
 ### **Tarun Kumanduri**
-<div style="text-align: center;">
-  <img src="images/lab/tarun.jpeg" width="250px">
-</div>
 
 Tarun is a Master’s student in the Data Analytics Program at George Washington University. He holds a Bachelor’s Degree in Computer Science and Engineering from JNTU Hyderabad. His expertise in Data Analysis, Visualization, and Modeling is enhanced by his interest in Project Management. He served as an Operations Intern in the UNICEF-Government of Telangana “School Innovation Challenge.” He is also a certified Yoga Teacher and the Events Director for the George Washington Desis Student Organization.
 
----
-
-### **Sachi Nandurkar**
-<div style="text-align: center;">
-  <img src="images/lab/sachi.jpg" width="250px">
-</div>
-
-Sachi is a master’s student in the Engineering Management program at GWU. Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. As a Graduate Teaching Assistant, she teaches labs on advanced Excel, SQL, and ERDs. She is also a Career Services Ambassador and has experience in global program management and data analytics. Sachi loves Formula One and blogs at “Constellation of Thoughts.”
-
----
+:::
 
 ## Undergraduate Students
 
----
+:::float-left
+
+Update coming soon! Several new undergraduate students will be joining the FEWsLab in Fall 2025.
+
+:::
+
+## Lab Manager
+
+:::float-left
+
+<img src="images/lab/sachi.jpg" width="150px">
+
+### **Sachi Nandurkar**
+
+Sachi completed her master’s in the Engineering Management program at GWU (May 2024). Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. She also serves as the Lab Manager for the FEWsLab where she supports organization and project management for the team and PI Grady. Previously she served as a Graduate Teaching Assistant, where she taught labs on advanced Excel, SQL, and ERDs. She is also a Career Services Ambassador and has experience in global program management and data analytics. Sachi loves Formula One and blogs at “Constellation of Thoughts.”
+
+:::
+
+<br>
 
 ## Principal Investigator
 
+:::float-left
+
 ### **Dr. Caitlin Grady**
-![Dr. Caitlin Grady](images/lab/caitlin_grady.jpg){float="left" width="200px" style="margin-right: 20px; margin-bottom: 10px;"} Dr. Caitlin Grady is an Associate Professor in the Department of [Engineering Management and Systems Engineering](https://emse.engineering.gwu.edu/) and the Director of Research at the [Global Food Institute](https://globalfoodinstitute.gwu.edu/).  Her academic background and research expertise spans a variety of engineering and policy domains across food, energy, and water systems. This includes both qualitative and quantitative approaches to studying systems such as agricultural trade, the electricity grid, natural hazards, and adaptation to climate change. Prior to her academic roles, she held several federal government roles including with the House of Representatives, the Department of Energy, and the Department of State. In these roles, she worked on a myriad of issues including agriculture, water & energy, air quality,  budget & appropriations, international development, and diplomatic engagement.
+![Dr. Caitlin Grady](images/lab/caitlin_grady.jpg){float="left" width="150px" style="margin-right: 20px; margin-bottom: 50px;"} Dr. Caitlin Grady is an Associate Professor in the Department of [Engineering Management and Systems Engineering](https://emse.engineering.gwu.edu/) and the Director of Research at the [Global Food Institute](https://globalfoodinstitute.gwu.edu/).  Her academic background and research expertise spans a variety of engineering and policy domains across food, energy, and water systems. This includes both qualitative and quantitative approaches to studying systems such as agricultural trade, the electricity grid, natural hazards, and adaptation to climate change. Prior to her academic roles, she held several federal government roles including with the House of Representatives, the Department of Energy, and the Department of State. In these roles, she worked on a myriad of issues including agriculture, water & energy, air quality,  budget & appropriations, international development, and diplomatic engagement.
 
 **Education:**  
 Ph.D., Civil and Environmental Engineering, Purdue University  
 M.S., Agricultural and Biological Engineering, Purdue University  
 B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and the Environment Major; Environmental Policy and Planning Minor)
 
----
+:::
+
+<br>
 
 # Alumni
 - Jose Fernandez (2017–2018): M.Eng., Penn State Civil Engineering, Water Resources. Now Project Engineer in Ecuador.
@@ -99,5 +111,6 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
