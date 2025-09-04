@@ -14,13 +14,13 @@ The FEWsLab investigates interconnections across **food**, **energy**, and **wat
 
 # Who We Are
 
-![Dr. Caitlin Grady](images/lab/caitlin_grady.jpg){float="left" width="200px" style="margin-right: 20px; margin-bottom: 10px;"} The FEWsLab is led by **Dr. Caitlin Grady**, Associate Professor of Engineering Management and Systems Engineering at George Washington University and Director of Research at the Global Food Institute. Dr. Grady brings a combination of academic, policy, and government experience. She has previously served as a faculty member at Penn State, a Policy Analyst at the U.S. Department of State and the Department of Energy, and as a Legislative Assistant in the U.S. Congress. Our lab thrives thanks to a talented and unique team of researchers, students, and collaborators who share a commitment to thinking outside the box.
-<div style="clear:both;"></div>
+The FEWsLab is led by **Dr. Caitlin Grady**, Associate Professor of Engineering Management and Systems Engineering at George Washington University and Director of Research at the [Global Food Institute](https://globalfoodinstitute.gwu.edu/). Dr. Grady brings a combination of academic, policy, and government experience. She has previously served as a faculty member at Penn State, a Policy Analyst at the U.S. Department of State and the Department of Energy, and as a Legislative Assistant in the U.S. Congress. Our lab thrives thanks to a talented and unique team of researchers, students, and collaborators who share a commitment to thinking outside the box.
+
 ---
 
 # Research
 
-Our research is supported by the **National Science Foundation**, the **U.S. Department of Agriculture**, and other institutional partners. We pursue interdisciplinary projects that address complex challenges through systems thinking, data-driven modeling, and policy-relevant analysis.
+Our research is supported by the **National Science Foundation**, the **U.S. Department of Agriculture**, the **McGovern Foundation** and other institutional partners. We pursue interdisciplinary projects that address complex challenges through systems thinking, data-driven modeling, and policy-relevant analysis.
 
 ---
 
