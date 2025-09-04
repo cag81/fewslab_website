@@ -26,11 +26,21 @@ Abbey is a doctoral student in the Systems Engineering Ph.D. program at GWU. She
 
 <br>
 
-<img src="images/lab/tarun.jpeg" width="250px">
+<img src="images/lab/tarun.jpeg" width="150px">
 
 ### **Tarun Kumanduri**
 
 Tarun is a Master’s student in the Data Analytics Program at George Washington University. He holds a Bachelor’s Degree in Computer Science and Engineering from JNTU Hyderabad. His expertise in Data Analysis, Visualization, and Modeling is enhanced by his interest in Project Management. He served as an Operations Intern in the UNICEF-Government of Telangana “School Innovation Challenge.” He is also a certified Yoga Teacher and the Events Director for the George Washington Desis Student Organization.
+
+<br>
+
+<img src="images/lab/bryce.jpeg" width="150px">
+
+### **Bryce Huffman**
+
+Bryce is a doctoral student in the Systems Engineering Ph.D. program at GWU. He received his B.S. in Systems Engineering and Economics from the University of Virginia in 2022. His research interests are at the intersection of artificial intelligence and human systems, specifically focused on methods to embed advanced AI models into human workflows to support decision-making, efficiency, and efficacy. He is also interested in how human-AI interactions shape user trust and intuition development across expertise levels, as well as how these dynamics play out in real-world systems. In support of these interests, Bryce is a fellow in GW’s “Co-Design of Trustworthy AI Systems” (DTAIS) program.
+
+<br>
 
 :::
 
@@ -63,6 +73,7 @@ Sachi completed her master’s in the Engineering Management program at GWU (May
 ### **Dr. Caitlin Grady**
 ![Dr. Caitlin Grady](images/lab/caitlin_grady.jpg){float="left" width="150px" style="margin-right: 20px; margin-bottom: 50px;"} Dr. Caitlin Grady is an Associate Professor in the Department of [Engineering Management and Systems Engineering](https://emse.engineering.gwu.edu/) and the Director of Research at the [Global Food Institute](https://globalfoodinstitute.gwu.edu/).  Her academic background and research expertise spans a variety of engineering and policy domains across food, energy, and water systems. This includes both qualitative and quantitative approaches to studying systems such as agricultural trade, the electricity grid, natural hazards, and adaptation to climate change. Prior to her academic roles, she held several federal government roles including with the House of Representatives, the Department of Energy, and the Department of State. In these roles, she worked on a myriad of issues including agriculture, water & energy, air quality,  budget & appropriations, international development, and diplomatic engagement.
 
+
 **Education:**  
 Ph.D., Civil and Environmental Engineering, Purdue University  
 M.S., Agricultural and Biological Engineering, Purdue University  
@@ -90,11 +101,13 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 - Paniz Mohammadpour (2018–2023): Ph.D. Civil Engineering. Now Water Resources Engineer II at Atkins.
 - Selena Hinojos (2021-2024) : Ph.D. in Engineering Management. Now Post Doc at University of Lousiana.
 - Rebecca Germaine (2023-2024) : B.S. in Public Health. Now a masters student at GW.
+- Sachi Nandurkar (2023-2024) : M.S. in Engineering Management. Now the FEWsLab Lab manager! 
 
 ---
 
 # Student Awards
 
+- Bryce Huffman - NSF Graduate Research Fellowship Honorable Mention (2025)
 - Abbey Kollar – NSF Graduate Research Fellowship (2024)  
 - Lauren Dennis – Presidential Management Fellow (2023)  
 - Sarah Torhan – NDSEG Fellow, Fulbright Fellow, Boren Fellow (2022)  
@@ -111,6 +124,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
 
