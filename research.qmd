@@ -1,5 +1,5 @@
 ---
-title: "News & Publications"
+title: "Publications & News"
 description: News features and peer-reviewed publications from the FEWsLab team.
 preview: images/lab/caitlin_grady.jpg
 toc: true
