@@ -60,7 +60,7 @@ Update coming soon! Several new undergraduate students will be joining the FEWsL
 
 ### **Sachi Nandurkar**
 
-Sachi completed her master’s in the Engineering Management program at GWU (May 2025). Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. She also serves as the Lab Manager for the FEWsLab where she supports organization and project management for the team and PI Grady. Previously she served as a Graduate Teaching Assistant, where she taught labs on advanced Excel, SQL, and ERDs. She is also a Career Services Ambassador and has experience in global program management and data analytics. Sachi loves Formula One and blogs at “Constellation of Thoughts.”
+Sachi completed her master’s in the Engineering Management program at GWU (May 2025). Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. She also serves as the Lab Manager for the FEWsLab where she supports organization and project management for the team and PI Grady. Previously she served as a Graduate Teaching Assistant, where she taught labs on advanced Excel, SQL, and ERDs. She has experience in global program management and data analytics. Outside the lab, Sachi loves Formula One.”
 
 :::
 
@@ -124,6 +124,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
 
