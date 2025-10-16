@@ -48,7 +48,11 @@ Bryce is a doctoral student in the Systems Engineering Ph.D. program at GWU. He 
 
 :::float-left
 
-Update coming soon! Several new undergraduate students will be joining the FEWsLab in Fall 2025.
+<img  src = "images/lab/maddy.jpg" width = "150px">
+
+### **Madelyn McCarthy**
+
+Madelyn is an undergraduate student studying Environmental and Sustainability Science, with minors in Geography and Business. Her research interests focus on the global green energy transition and on exploring how science, business, and policy can collaborate to create meaningful environmental change. As a senior, she is applying to Master’s programs in Environmental Management to continue her academic and professional development. Outside of the lab, Madelyn enjoys traveling, practicing Pilates, and discovering new matcha spots.
 
 :::
 
@@ -60,7 +64,7 @@ Update coming soon! Several new undergraduate students will be joining the FEWsL
 
 ### **Sachi Nandurkar**
 
-Sachi completed her master’s in the Engineering Management program at GWU (May 2025). Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. She also serves as the Lab Manager for the FEWsLab where she supports organization and project management for the team and PI Grady. Previously she served as a Graduate Teaching Assistant, where she taught labs on advanced Excel, SQL, and ERDs. She has experience in global program management and data analytics. Outside the lab, Sachi loves Formula One.”
+Sachi completed her master’s in the Engineering Management program at GWU (May 2025). Her research at the FEW’s Lab focuses on the life cycle assessment and circularity of electric vehicles. She also serves as the Lab Manager for the FEWsLab where she supports organization and project management for the team and PI Grady. Previously she served as a Graduate Teaching Assistant, where she taught labs on advanced Excel, SQL, and ERDs. She has experience in global program management and data analytics. Outside the lab, Sachi loves Formula One.
 
 :::
 
@@ -124,6 +128,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
 
