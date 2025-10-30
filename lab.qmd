@@ -56,6 +56,17 @@ Madelyn is an undergraduate student studying Environmental and Sustainability Sc
 
 :::
 
+
+:::float-left 
+
+<img src= "images/lab/BreannaCrossmanHeadshot.jpg" width = "150px">
+
+### **Breanna Crossman**
+
+Breanna Crossman is an undergraduate student studying International Affairs and Classical and Ancient Near Eastern Studies, with a concentration in International Politics. Her academic and research interests include youth climate litigation, global governance, and sustainable development. Breanna hopes to work in international law and diplomacy in the future. In her free time, she enjoys reading, baking, and visiting museums around D.C.
+
+:::
+
 ## Lab Manager
 
 :::float-left
@@ -128,6 +139,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
 
