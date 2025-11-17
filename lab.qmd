@@ -67,6 +67,17 @@ Breanna Crossman is an undergraduate student studying International Affairs and 
 
 :::
 
+
+:::float-left
+
+<img src= "images/lab/dia.jpg" width = "150px">
+
+### **Dia Makhecha**
+
+Dia Makhecha is an undergraduate student studying Political Science and International Business, with a minor in Sustainability. Her academic and professional interests lie at the intersection of energy policy and consulting, and international development, with a particular focus on advancing equitable and sustainable energy transitions in the Global South. Dia’s experience spans corporate sustainability research at TATA Power, legal and policy internships, and leadership roles in student, executive, and advocacy organizations including the Director of International Students at the George Washington University Student Government Association, and Licensee at TedxFoggyBottom. As she continues to explore the nexus between policy, business, and the environment, Dia is eager to contribute to interdisciplinary research that support sustainable governance and international affairs.
+
+
+
 <br>
 
 ## Lab Manager
@@ -141,6 +152,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 ---
 
 *Current and prospective students are encouraged to contact Dr. Grady for opportunities.*
+
 
 
 
