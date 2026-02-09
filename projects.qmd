@@ -17,14 +17,16 @@ source("_common.R")
 
 ### Current Projects
 
-#### Healthy Food Systems 
-*Funded by the Patrick J. McGovern Foundation*
+#### Surveying the Aid Ecosystem
+*Funded by the Global Food Institute*
 
-In collaboration with DC Central Kitchen (DCCK) and Partnership for a Healthier America, GWU is working to evaluate DCCK’s Healthy Corners program, a leading national model to advance healthier food choices in urban corner stores.
+In collaboration with [Maraym Z. Deloffre](https://elliott.gwu.edu/maryam-deloffre) and [Erica Gralla](https://engineering.gwu.edu/erica-gralla) we are surveying the aid ecosystem changes as processes evolve post-USAID. 
+This includes measuring relationships, information exchange, and more. 
+Our first outcome is a White Paper that describes these impacts in the [food aid ecosystem](https://globalfoodinstitute.gwu.edu/sites/g/files/zaxdzs5956/files/2025-11/gfi-2526-194-gfi-white-paper-oct2025-web-optimized.pdf) as of October 2025. 
+This work is ongoing and collecting longitudinal data. 
 
-- Funding Agency: Patrick J. McGovern Foundation [Project Description](https://globalfoodinstitute.gwu.edu/one-city-many-scaling-best-practices-healthy-corner-stores)
-- AWard Total: $500,000
-- Primary Student: Tarun Kumanduri   
+- Funding Organization: the [Global Food Institute](https://globalfoodinstitute.gwu.edu/)
+- Primary Personnel: Caitlin Grady   
 
 #### Climate Risks and Resilience across Balancing Authorities  
 *Funded by the National Science Foundation Graduate Research Fellowship*
@@ -64,6 +66,10 @@ Funded by the NSF, this project explores infrastructure and stakeholder values t
 - Primary Student: Selena Hinojos  
 - Funding: $509,880  
 
+---
+
+### Previous Projects
+
 #### Thriving Agricultural Systems in Urban Landscapes  
 *Funded by the US Department of Agriculture*
 
@@ -74,9 +80,14 @@ This collaborative project aims to develop thriving and sustainable agricultural
 - FEWsLab Portion: ~$500,000  
 - Interactive Dashboard: [nitrogen-project.fewslab.org](https://nitrogen-project.fewslab.org) – built to visualize data and outcomes from this research
 
----
+#### Healthy Food Systems 
+*Funded by the Patrick J. McGovern Foundation*
 
-### Previous Projects
+In collaboration with DC Central Kitchen (DCCK) and Partnership for a Healthier America, GWU is working to evaluate DCCK’s Healthy Corners program, a leading national model to advance healthier food choices in urban corner stores.
+
+- Funding Agency: Patrick J. McGovern Foundation [Project Description](https://globalfoodinstitute.gwu.edu/one-city-many-scaling-best-practices-healthy-corner-stores)
+- AWard Total: $500,000
+- Primary Student: Tarun Kumanduri   
 
 #### Global Adaptation Mapping Initiative (GAMI)
 A global initiative to synthesize peer-reviewed literature on climate change adaptation, contributing to the IPCC’s 6th Assessment Report.
