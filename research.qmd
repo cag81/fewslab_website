@@ -15,7 +15,8 @@ source("_common.R")
 ```
 
 ### News and Blog Posts
-- Dr. Grady was quoted in a [All Things Considered](https://www.npr.org/2025/07/04/nx-s1-5454884/why-hydropower-faces-more-barriers-than-wind-or-solar) story
+- Check out our new White Paper surveying the [food aid ecosystem](https://globalfoodinstitute.gwu.edu/sites/g/files/zaxdzs5956/files/2025-11/gfi-2526-194-gfi-white-paper-oct2025-web-optimized.pdf) in collaboration with the [Global Food Institute](https://globalfoodinstitute.gwu.edu/).
+- Dr. Grady was quoted in a [All Things Considered](https://www.npr.org/2025/07/04/nx-s1-5454884/why-hydropower-faces-more-barriers-than-wind-or-solar) story.
 - Dr. Grady was quoted in a Law360 analysis of [What The Feds’ Colo. River Plan Could Mean For The West](https://www.law360.com/articles/1597564/what-the-feds-colo-river-plan-could-mean-for-the-west).
 - Dr. Grady was quoted in a [Marketplace report](https://www.marketplace.org/2022/08/18/how-drought-zaps-electricity-production-and-drives-up-prices/) on how drought could zap electricity production and raise prices.
 - Dr. Grady and PhD student Lauren Dennis co-authored an article on [climate change and hydropower for The Conversation](https://theconversation.com/hydropowers-future-is-clouded-by-droughts-floods-and-climate-change-its-also-essential-to-the-us-electric-grid-182314).
