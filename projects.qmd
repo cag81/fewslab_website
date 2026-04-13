@@ -23,8 +23,8 @@ source("_common.R")
 Lab Manager Sachi Nandurkar is building simualtion models to understand decarbonization pathways for a tricky business- Formula One. We are trying to understand what policy levers exist and where are the hardest to reach parts of the organization's climate goals. 
 
 - Primary Personnel: Sachi Nandurkar
-- [Preprint] (https://zenodo.org/records/19500205) of our analysis currently under peer review.
-- [Dashboard] ( http://formula-one-netzero.fewslab.org/) simulation of the policy pathways.
+- [Preprint](https://zenodo.org/records/19500205) of our analysis currently under peer review.
+- [Dashboard]( http://formula-one-netzero.fewslab.org/) simulation of the policy pathways.
 
 #### Surveying the Aid Ecosystem
 *Funded by the Global Food Institute*
