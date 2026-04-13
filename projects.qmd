@@ -17,6 +17,15 @@ source("_common.R")
 
 ### Current Projects
 
+#### Formula One Net Zero Goals
+*Funded by George Washington University*
+
+Lab Manager Sachi Nandurkar is building simualtion models to understand decarbonization pathways for a tricky business- Formula One. We are trying to understand what policy levers exist and where are the hardest to reach parts of the organization's climate goals. 
+
+- Primary Personnel: Sachi Nandurkar
+- [Preprint] (https://zenodo.org/records/19500205) of our analysis currently under peer review.
+- [Dashboard] ( http://formula-one-netzero.fewslab.org/) simulation of the policy pathways.
+
 #### Surveying the Aid Ecosystem
 *Funded by the Global Food Institute*
 
@@ -57,6 +66,10 @@ We are analyzing adaptation plans for global megacities to understand how major 
 
 - Primary Student: Dhanyasri Bolla  
 
+---
+
+### Previous Projects
+
 #### Ethical Implications of Connected Critical Infrastructure in the FEW Nexus  
 *Funded by the National Science Foundation*
 
@@ -65,10 +78,6 @@ Funded by the NSF, this project explores infrastructure and stakeholder values t
 - Funding Agency: National Science Foundation [Award Description](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2244715&HistoricalAwards=false)
 - Primary Student: Selena Hinojos  
 - Funding: $509,880  
-
----
-
-### Previous Projects
 
 #### Thriving Agricultural Systems in Urban Landscapes  
 *Funded by the US Department of Agriculture*
