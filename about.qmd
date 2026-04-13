@@ -26,6 +26,7 @@ Our research is supported by the **National Science Foundation**, the **U.S. Dep
 
 # News and Highlights
 
+- Sachi Nandurkar published her [pre-print](https://zenodo.org/records/19500205) and [dashboard]( http://formula-one-netzero.fewslab.org/) analyzing Formula One Net Zero Goals. 
 - Dr. Grady was recently named the next Director of Research for the [Global Food Institute](https://globalfoodinstitute.gwu.edu/)
 - Abbey Kollar and Ji Qi presented recent research at the 10th International Engineering Systems Symposium hosted by [CESUN](https://cesun.org/)
 - Dr. Grady was quoted in a recent episode of NPR's All Things Considered [July 4, 2025](https://www.npr.org/2025/07/04/nx-s1-5454884/why-hydropower-faces-more-barriers-than-wind-or-solar)
