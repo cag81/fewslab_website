@@ -15,8 +15,9 @@ source("_common.R")
 ```
 
 ### News and Blog Posts
-- Sachi Nandurkar published our [paper](https://doi.org/10.3389/fclim.2026.1854735) and [dashboard](https://formula-one-netzero.fewslab.org/) showcasing how we drive to survive climate goals in Formula One.
+- Sachi Nandurkar and Dr. Grady co-authored an article for [The Conversation](https://theconversation.com/formula-1-racing-shows-the-hard-part-of-reaching-net-zero-carbon-emissions-isnt-the-engineering-281495) on why engineering isn't the hard part of Formula One's net-zero goal.
 - Dr. Grady and Abbey Kollar were contributing authors for Virginia’s first energy [infrastructure report card](https://infrastructurereportcard.org/state-item/virginia/).
+- Sachi Nandurkar published our [paper](https://doi.org/10.3389/fclim.2026.1854735) and [dashboard](https://formula-one-netzero.fewslab.org/) showcasing how we drive to survive climate goals in Formula One.
 - Sindhu Ranganth and Sachi Nandurkar published a NIST Technical Note on a Systematic Literature Review of Life Cycle Assessments of Large Format Batteries. [DOI 10.6028/NIST.TN.2370](https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2370.pdf)
 - Check out our new White Paper surveying the [food aid ecosystem](https://globalfoodinstitute.gwu.edu/sites/g/files/zaxdzs5956/files/2025-11/gfi-2526-194-gfi-white-paper-oct2025-web-optimized.pdf) in collaboration with the [Global Food Institute](https://globalfoodinstitute.gwu.edu/).
 - Dr. Grady was quoted in a [All Things Considered](https://www.npr.org/2025/07/04/nx-s1-5454884/why-hydropower-faces-more-barriers-than-wind-or-solar) story.
@@ -45,14 +46,14 @@ source("_common.R")
 
 - [Caitlin Grady](https://scholar.google.com/citations?user=HoSryoQAAAAJ&hl=en)  
 - [Sindhu Ranganath](https://scholar.google.com/citations?user=484KNOwAAAAJ&hl=en&oi=ao)
-- [Dhanyasri Bolla](https://scholar.google.com/citations?user=MLKXs6MAAAAJ&hl=en&oi=ao)
-- [Sachi Nandurkar](https://scholar.google.com/citations?user=ac04pksAAAAJ&hl=en&oi=ao)
+- [Sachi Nandurkar](https://scholar.google.com/citations?user=8Sj3IcEAAAAJ&hl=en)
 - Abbey Kollar
 - Bryce Huffman
-- Tarun Kumanduri
 
 Past Team Members
+
 - [Selena Hinojos](https://scholar.google.com/citations?user=40i20T4AAAAJ&hl=en&oi=ao)  
+- [Dhanyasri Bolla](https://scholar.google.com/citations?user=MLKXs6MAAAAJ&hl=en&oi=ao)
 - [Michael Gomez](https://scholar.google.com/citations?user=ClC7U1QAAAAJ&hl=en)  
 - [Paniz Mohammadpour](https://scholar.google.com/citations?user=8r0FciwAAAAJ&hl=en)  
 - [Lauren Dennis](https://scholar.google.com/citations?user=t9saXqQAAAAJ&hl=en&oi=ao)  

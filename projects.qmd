@@ -86,7 +86,7 @@ PhD student Abbey Kollar analyzed operational risks to data centers in the U.S.,
 
 - Funding Agency: NSF GRFP [Award Description](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program), NSF DTAIS NRT [Award Description](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2125677) 
 - Primary Student: Abbey Kollar
-- Published Paper: The relationship between data centers and the climate is a systems challenge: a spatial analysis of United States data centers; DOI: [10.1088/2515-7620/ae193a](https://iopscience.iop.org/article/10.1088/2515-7620/ae193a)
+- Published Paper: The relationship between data centers and the climate is a systems challenge: a spatial analysis of United States data centers; DOI [10.1088/2515-7620/ae193a](https://iopscience.iop.org/article/10.1088/2515-7620/ae193a)
 
 #### Ethical Implications of Connected Critical Infrastructure in the FEW Nexus  
 *Funded by the National Science Foundation*
