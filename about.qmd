@@ -23,7 +23,7 @@ The FEWsLab is led by **Dr. Caitlin Grady**, Associate Professor of Engineering 
 Our research is supported by the **National Science Foundation**, the **U.S. Department of Agriculture**, the **McGovern Foundation** and other institutional partners. We pursue interdisciplinary projects that address complex challenges through systems thinking, data-driven modeling, and policy-relevant analysis.
 
 <figure style="text-align: center; margin: 1.5rem auto;">
-  <img src="images/lab/kigali_roof_selfie.jpg" alt="The FEWsLab team" style="width:700px; max-width:100%;">
+  <img src="images/lab/kigali_roof.jpg" alt="The FEWsLab team" style="width:700px; max-width:100%;">
   <figcaption style="text-align: center; font-style: italic; margin-top: 0.5rem;">No better place to do engineering + policy work than DC!</figcaption>
 </figure>
 
