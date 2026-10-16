@@ -6,6 +6,8 @@ toc: true
 toc-location: left
 ---
 
+![](images/lab/fewslab_group_photo.jpg){fig-alt="The FEWsLab team" width="700px" fig-align="center"}
+
 ## PhD Students
 
 :::float-left
@@ -26,6 +28,8 @@ Bryce is a doctoral student in the Systems Engineering Ph.D. program at GWU. He 
 
 <br>
 
+:::
+
 ## Graduate Students
 
 :::float-left
@@ -37,6 +41,8 @@ Bryce is a doctoral student in the Systems Engineering Ph.D. program at GWU. He 
 Madelyn is a graduate student studying Environmental and Sustainability Management at Georgetown University McDonough School of Business. Her research interests focus on the global green energy transition and on exploring how science, business, and policy can collaborate to create meaningful environmental change. Outside of the lab, Madelyn enjoys traveling, practicing Pilates, and discovering new matcha spots.
 
 <br>
+
+:::
 
 :::float-left
 
@@ -57,7 +63,7 @@ Sai Lekhana is a master’s student in the Engineering Management program at Geo
 
 :::float-left
 
-<img src="images/lab/sachi.jpg" width="150px">
+<img src="images/lab/sachi_2026.jpg" width="150px">
 
 ### **Sachi Nandurkar**
 
@@ -84,7 +90,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 
 <br>
 
-# Alumni
+## Alumni
 - Dhanyasri Bolla (2024-2025): M.S. Engineering Management, George Washington University. Now PhD student at Arizona State University.
 - Tarun Kumanduri (2024-2025): M.S. Data Analytics, George Washington University. 
 - Jose Fernandez (2017–2018): M.Eng., Penn State Civil Engineering, Water Resources. Now Project Engineer in Ecuador.
@@ -108,7 +114,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 
 ---
 
-# Student Awards
+## Student Awards
 
 - Bryce Huffman - NSF Graduate Research Fellowship Honorable Mention (2025)
 - Abbey Kollar – NSF Graduate Research Fellowship (2024)  
