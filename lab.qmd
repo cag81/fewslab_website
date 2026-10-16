@@ -36,6 +36,18 @@ Bryce is a doctoral student in the Systems Engineering Ph.D. program at GWU. He 
 
 Madelyn is a graduate student studying Environmental and Sustainability Management at Georgetown University McDonough School of Business. Her research interests focus on the global green energy transition and on exploring how science, business, and policy can collaborate to create meaningful environmental change. Outside of the lab, Madelyn enjoys traveling, practicing Pilates, and discovering new matcha spots.
 
+<br>
+
+:::float-left
+
+<br>
+
+<img src="images/lab/sai.jpg" width="150px">
+
+### **Sai Lekhana**
+
+Sai Lekhana is a master’s student in the Engineering Management program at George Washington University. She completed an Integrated Master of Science in Chemistry from the S V National Institute of Technology in 2024, and plans to build her career as a project or program manager. In summer 2026, Sai worked as a Volunteer Systems & Platform Intern at Engineers Without Borders USA, where she improved the organization’s Salesforce data quality, gathered staff input that shaped its first AI policy, and coordinated a digital platform migration across teams. She is skilled in R, SQL, and data visualization. She also serves as a President GW Net Impact, a student organization focused on sustainability and social impact. Outside the lab, she paints, with a particular love for stencil art portraits.
+
 :::
 
 <br>
