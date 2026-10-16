@@ -91,8 +91,7 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 <br>
 
 ## Alumni
-- Dhanyasri Bolla (2024-2025): M.S. Engineering Management, George Washington University. Now PhD student at Arizona State University.
-- Tarun Kumanduri (2024-2025): M.S. Data Analytics, George Washington University. 
+
 - Jose Fernandez (2017–2018): M.Eng., Penn State Civil Engineering, Water Resources. Now Project Engineer in Ecuador.
 - Andrew Pannone (2017–2018): Undergraduate, Penn State Engineering. Now PhD student in Dr. Saptarshi Das Lab, Penn State.
 - Jack Iffert (2018–2019): B.S. Civil Engineering. Now Transportation Analyst at Kimley Horn.
@@ -110,7 +109,9 @@ B.S., Science and Technology Studies, Virginia Tech (Humanities, Science, and th
 - Paniz Mohammadpour (2018–2023): Ph.D. Civil Engineering. Now Water Resources Engineer II at Atkins.
 - Selena Hinojos (2021-2025) : Ph.D. in Engineering Management. Now Post Doc at University of Lousiana.
 - Rebecca Germaine (2023-2025) : B.S. in Public Health. Now a masters student at GW.
-- Sachi Nandurkar (2023-2025) : M.S. in Engineering Management. Now the FEWsLab Lab manager! 
+- Sachi Nandurkar (2023-2025) : M.S. in Engineering Management. Now the FEWsLab Lab manager!
+- Dhanyasri Bolla (2023-2025): M.S. Engineering Management, George Washington University. Now PhD student at Arizona State University.
+- Tarun Kumanduri (2023-2025): M.S. Data Analytics, George Washington University. 
 
 ---
 
