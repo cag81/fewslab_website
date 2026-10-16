@@ -17,13 +17,22 @@ source("_common.R")
 
 ### Current Projects
 
+#### Perceptions of Energy Security in Sweden
+*Funded by the National Science Foundation*
+
+PhD student Abbey Kollar is furthering understanding of different energy stakeholder perceptions of energy security in Sweden, including responsibilities, threats, and metrics.
+
+- Funding Agency: NSF GRFP [Award Description](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program), NSF [Award Description](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2505507)
+- Primary Personnel: Abbey Kollar
+- Master’s Student: Madelyn McCarthy
+
 #### Formula One Net Zero Goals
 *Funded by George Washington University*
 
-Lab Manager Sachi Nandurkar is building simualtion models to understand decarbonization pathways for a tricky business- Formula One. We are trying to understand what policy levers exist and where are the hardest to reach parts of the organization's climate goals. 
+Lab Manager Sachi Nandurkar built a systems simulation model to explore decarbonization pathways for a tricky business: Formula One. The model tests which policy levers the sport can pull, from sustainable aviation fuel and renewable electricity to a more regional race calendar, and shows where the hardest-to-reach parts of its 2030 net-zero goal lie. 
 
 - Primary Personnel: Sachi Nandurkar
-- [Preprint](https://zenodo.org/records/19500205) of our analysis currently under peer review.
+- [Paper](https://doi.org/10.3389/fclim.2026.1854735) published in *Frontiers in Climate* (2026).
 - [Dashboard]( http://formula-one-netzero.fewslab.org/) simulation of the policy pathways.
 
 #### Surveying the Aid Ecosystem
@@ -69,6 +78,15 @@ We are analyzing adaptation plans for global megacities to understand how major 
 ---
 
 ### Previous Projects
+
+#### Operational Risks to Data Centers
+*Funded by the National Science Foundation Graduate Research Fellowship and National Science Foundation DTAIS National Research Traineeship*
+
+PhD student Abbey Kollar analyzed operational risks to data centers in the U.S., including heatwaves, water stress, and local grid emissions.
+
+- Funding Agency: NSF GRFP [Award Description](https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program), NSF DTAIS NRT [Award Description](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2125677) 
+- Primary Student: Abbey Kollar
+- Published Paper: The relationship between data centers and the climate is a systems challenge: a spatial analysis of United States data centers; DOI: [10.1088/2515-7620/ae193a](https://iopscience.iop.org/article/10.1088/2515-7620/ae193a)
 
 #### Ethical Implications of Connected Critical Infrastructure in the FEW Nexus  
 *Funded by the National Science Foundation*
