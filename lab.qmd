@@ -60,13 +60,25 @@ Sai Lekhana is a master’s student in the Engineering Management program at Geo
 
 :::float-left
 
-<br>
-
 <img src="images/lab/Rumbi.jpg" width="150px">
 
 ### **Rumbidzai Paradza**
 
 Rumbidzai is a Master of Science student in Engineering Management at The George Washington University, with a Bachelor of Technology in Water Resources Management and Irrigation Engineering and a Bachelor of Science (Honors) in Biosystems and Agricultural Engineering from the University of Zimbabwe. Her passion for food security and sustainable development is rooted in her belief that everyone, regardless of where they live, deserves access to adequate food, clean water, and opportunities for a better life. Having worked on irrigation and agricultural development projects, she has seen firsthand how access to water and resilient agricultural systems can transform communities. At the FEWs Lab, her research focuses on food security as a national security priority, and she is also a Global Resilience and Security Fellow, focusing on the impacts of Arctic climate change on food systems in Sub-Saharan Africa. She is particularly interested in connecting research, policy, and practical engineering solutions to address the challenges facing vulnerable communities. Driven by a desire to make a meaningful difference, Rumbidzai hopes to contribute to a future where food security is not a privilege, but a reality and a must for all.
+
+<br>
+
+:::
+
+## Undergraduate Students
+
+:::float-left
+
+<img src="images/lab/gabby.png" width="150px">
+
+### **Gabriella Becker**
+
+Gabriella is an undergraduate student studying Systems Engineering at The George Washington University. Her research interests include sustainability, disaster resilience, stakeholder engagement, and connecting engineering with policy to help solve real-world problems. In her free time, Gabriella enjoys tango, reading, writing, and traveling.
 
 :::
 
