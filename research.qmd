@@ -44,10 +44,10 @@ source("_common.R")
 ### Google Scholar Profiles
 *For full details on publications see the following Google Scholar profiles*
 
-- [Caitlin Grady](https://scholar.google.com/citations?user=HoSryoQAAAAJ&hl=en)  
+- [Caitlin Grady](https://scholar.google.com/citations?user=HoSryoQAAAAJ&hl=en)
+- [Abbey Kollar](https://scholar.google.com/citations?user=kDhBLKkAAAAJ&hl=en&oi=ao)
 - [Sindhu Ranganath](https://scholar.google.com/citations?user=484KNOwAAAAJ&hl=en&oi=ao)
 - [Sachi Nandurkar](https://scholar.google.com/citations?user=8Sj3IcEAAAAJ&hl=en)
-- Abbey Kollar
 - Bryce Huffman
 
 Past Team Members
