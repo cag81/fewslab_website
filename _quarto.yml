@@ -11,6 +11,7 @@ project:
     - "cv.qmd"
     - "research.qmd"        # Used as News & Publications
     - "projects.qmd"
+    - "decisions.qmd"
     - "teaching.qmd"
     - "charts.qmd"
     - "good-eats.qmd"
@@ -22,14 +23,16 @@ project:
     - "css"
     - "splitkbcompare.html"
     - "static/"
+    - "llms.txt"
 
 website:
   title: "FEWsLab"
-  description: "The research group of Dr. Caitlin Grady at George Washington University"
+  description: "FEWsLab is the research group of Dr. Caitlin Grady at George Washington University. We build models and data for decisions made with imperfect information, with examples in ocean treaties (BBNJ and the IMO), corporate net zero targets, humanitarian aid, and data center climate risk."
   image: images/lab/caitlin_grady.jpg
   site-url: https://www.fewslab.org
   favicon: images/favicon/favicon.ico
-  repo-url: https://github.com/YOUR_GITHUB_REPO_HERE
+  repo-url: https://github.com/cag81/fewslab_website
+  open-graph: true
   search:
     location: navbar
     type: overlay
@@ -47,6 +50,8 @@ website:
         href: teaching.qmd
       - text: "Projects"
         href: projects.qmd
+      - text: "Research for Decisions"
+        href: decisions.qmd
 
   page-footer:
     center:
