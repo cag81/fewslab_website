@@ -1,0 +1,314 @@
+<script>
+/* Research for Decisions: scroll-driven graphics.
+   Each graphic is a small SVG with a setStep(n) function.
+   Steps are read with IntersectionObserver; no libraries. */
+(function () {
+  var NS = 'http://www.w3.org/2000/svg';
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function el(tag, attrs, parent, text) {
+    var n = document.createElementNS(NS, tag);
+    for (var k in attrs) n.setAttribute(k, attrs[k]);
+    if (text != null) n.textContent = text;
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+  function svgRoot(host, w, h) {
+    var s = el('svg', { viewBox: '0 0 ' + w + ' ' + h, role: 'img', 'aria-hidden': 'true' });
+    host.appendChild(s);
+    return s;
+  }
+  function show(node, on) { node.style.opacity = on ? 1 : 0; }
+  function css(name, scope) { return getComputedStyle(scope).getPropertyValue(name).trim(); }
+
+  /* ---------- 1. Two clocks ---------- */
+  function clocks(host, scope, m) {
+    var W = m ? 420 : 640, H = m ? 400 : 420;
+    var x0 = m ? 4 : 150, x1 = W - 20, M = 42, dec = 14;
+    var x = function (v) { return x0 + (v / M) * (x1 - x0); };
+    var rowA = m ? 150 : 124, rowB = m ? 270 : 262;
+    var s = svgRoot(host, W, H);
+    var accent = css('--fd-accent', scope), bar = css('--fd-bar', scope), kelp = '#7d9c2e';
+
+    var axis = el('g', {}, s);
+    for (var v = 0; v <= M; v += 6) {
+      el('line', { x1: x(v), x2: x(v), y1: 70, y2: 340, class: 'rule' }, axis);
+      el('text', { x: x(v), y: 362, 'text-anchor': 'middle', 'font-size': 13, class: 't-muted' }, axis, v);
+    }
+    el('text', { x: x1, y: 386, 'text-anchor': 'end', 'font-size': 13, class: 't-muted' }, axis, 'Months from the first question');
+
+    var decision = el('g', {}, s);
+    el('line', { x1: x(dec), x2: x(dec), y1: 46, y2: 340, stroke: accent, 'stroke-width': 3 }, decision);
+    el('text', { x: x(dec) + 8, y: 52, 'font-size': 15, 'font-weight': 600, class: 't-accent' }, decision, 'Decision is made');
+
+    var grant = el('g', { class: 'layer' }, s);
+    if (m) el('text', { x: x0, y: rowA - 30, 'font-size': 14, 'font-weight': 600 }, grant, 'Project grant path');
+    else {
+      el('text', { x: 0, y: rowA + 16, 'font-size': 14, 'font-weight': 600 }, grant, 'Project grant');
+      el('text', { x: 0, y: rowA + 34, 'font-size': 13, class: 't-muted' }, grant, 'path');
+    }
+    [[0, 6], [6, 12], [12, 30], [30, 40]].forEach(function (sg, i) {
+      el('rect', { x: x(sg[0]) + 1, y: rowA, width: x(sg[1]) - x(sg[0]) - 2, height: 30, fill: bar, opacity: 0.35 + i * 0.18 }, grant);
+    });
+    [[0, 12, 'Proposal and review'], [12, 30, 'Research'], [30, 40, 'Peer review']].forEach(function (sg) {
+      el('text', { x: (x(sg[0]) + x(sg[1])) / 2, y: rowA + 52, 'text-anchor': 'middle', 'font-size': 12, class: 't-muted' }, grant, sg[2]);
+    });
+    el('circle', { cx: x(40), cy: rowA + 15, r: 7, fill: bar }, grant);
+    el('text', { x: x(40) + 7, y: rowA - 12, 'text-anchor': 'end', 'font-size': 13 }, grant, 'Findings published');
+
+    var team = el('g', { class: 'layer' }, s);
+    el('text', m ? { x: x0, y: rowB - 22, 'font-size': 14, 'font-weight': 600 } : { x: 0, y: rowB + 5, 'font-size': 14, 'font-weight': 600 }, team, 'Standing team');
+    el('rect', { x: x(0), y: rowB - 3, width: x(M) - x(0), height: 6, fill: kelp, opacity: 0.45 }, team);
+    [3, 7, 10, 12.5].forEach(function (v) {
+      el('circle', { cx: x(v), cy: rowB, r: 8, fill: kelp, stroke: css('--fd-bg', scope), 'stroke-width': 2 }, team);
+    });
+    [19, 26, 33, 38].forEach(function (v) { el('circle', { cx: x(v), cy: rowB, r: 6, fill: kelp, opacity: 0.6 }, team); });
+
+    var note = el('g', { class: 'layer' }, s);
+    ['Briefs and', 'model runs arrive', 'before the decision'].forEach(function (t, i) {
+      el('text', { x: x(dec) - 10, y: rowB + 30 + i * 17, 'text-anchor': 'end', 'font-size': 13 }, note, t);
+    });
+
+    return function (step) {
+      grant.style.opacity = step === 0 ? 0 : (step >= 3 ? 0.3 : 1);
+      show(team, step >= 2);
+      show(note, step >= 3);
+    };
+  }
+
+  /* ---------- 2. Ocean: high seas share, then two treaty tracks ---------- */
+  function ocean(host, scope, m) {
+    var W = m ? 420 : 640, H = m ? 460 : 440;
+    var s = svgRoot(host, W, H);
+    var accent = css('--fd-accent', scope), shoal = '#5fa8c9', muted = css('--fd-muted', scope), kelp = '#a2c744';
+
+    var waffle = el('g', { class: 'layer' }, s);
+    var cols = 6, size = m ? 44 : 52, gap = 6, ox = m ? 0 : 40, oy = m ? 30 : 70;
+    for (var i = 0; i < 30; i++) {
+      var c = i % cols, r = Math.floor(i / cols), high = i >= 10;
+      el('rect', { x: ox + c * (size + gap), y: oy + r * (size + gap), width: size, height: size, rx: 2,
+        fill: high ? shoal : 'none', stroke: high ? 'none' : muted, 'stroke-width': 1.5, opacity: high ? 0.9 : 0.7 }, waffle);
+    }
+    var wx = m ? 0 : ox + cols * (size + gap) + 20, wy = m ? oy + 5 * (size + gap) + 50 : 150;
+    el('text', { x: wx, y: wy, 'font-size': m ? 36 : 44, class: 't-big' }, waffle, 'About 2/3');
+    el('text', { x: wx, y: wy + 30, 'font-size': 15 }, waffle, 'of the ocean lies beyond');
+    el('text', { x: wx, y: wy + 49, 'font-size': 15 }, waffle, 'national jurisdiction');
+    var lx = m ? 210 : wx, ly = m ? wy - 20 : 250;
+    el('rect', { x: lx, y: ly, width: 14, height: 14, fill: shoal }, waffle);
+    el('text', { x: lx + 22, y: ly + 12, 'font-size': 13 }, waffle, 'High seas');
+    el('rect', { x: lx, y: ly + 26, width: 14, height: 14, fill: 'none', stroke: muted }, waffle);
+    el('text', { x: lx + 22, y: ly + 38, 'font-size': 13 }, waffle, 'National waters');
+
+    var t0 = 2023, t1 = 2028, X0 = m ? 6 : 40, X1 = W - 30;
+    var tx = function (y, mo) { return X0 + ((y + (mo - 1) / 12) - t0) / (t1 - t0) * (X1 - X0); };
+    var tl = el('g', { class: 'layer' }, s);
+    for (var y = t0; y <= t1; y++) {
+      el('line', { x1: tx(y, 1), x2: tx(y, 1), y1: 60, y2: 390, class: 'rule' }, tl);
+      el('text', { x: tx(y, 1), y: 412, 'text-anchor': 'middle', 'font-size': 13, class: 't-muted' }, tl, y);
+    }
+
+    // [year, month, label, decision?, label position, anchor, show on mobile]
+    function track(parent, yy, title, events) {
+      var g = el('g', { class: 'layer' }, parent);
+      el('text', { x: X0, y: yy - 58, 'font-size': 15, 'font-weight': 600 }, g, title);
+      var a = events[0], b = events[events.length - 1];
+      el('line', { x1: tx(a[0], a[1]), x2: tx(b[0], b[1]), y1: yy, y2: yy, stroke: shoal, 'stroke-width': 2, opacity: 0.6 }, g);
+      events.forEach(function (e) {
+        var px = tx(e[0], e[1]);
+        if (e[3]) el('line', { x1: px, x2: px, y1: yy - 20, y2: yy + 20, stroke: accent, 'stroke-width': 3 }, g);
+        else el('circle', { cx: px, cy: yy, r: 6, fill: shoal }, g);
+        if (m && !e[6]) return;
+        el('text', { x: e[3] ? px - 6 : px, y: e[4] === 'below' ? yy + 38 : (e[4] === 'low' ? yy + 58 : yy - 28), 'text-anchor': e[5], 'font-size': 12.5,
+          class: e[3] ? 't-accent' : '', 'font-weight': e[3] ? 600 : 400 }, g, e[2]);
+      });
+      return g;
+    }
+    var bbnj = track(tl, 170, 'High Seas Treaty (BBNJ)', [
+      [2023, 6, 'Adopted', false, 'above', 'start', true],
+      [2025, 9, '60th ratification', false, 'below', 'end', false],
+      [2026, 1, 'In force', false, 'above', 'middle', true],
+      [2027, 1, 'COP1', true, 'below', 'end', true]
+    ]);
+    var imo = track(tl, 320, 'IMO Net Zero Framework', [
+      [2025, 4, 'Draft approved', false, 'above', 'end', false],
+      [2025, 10, 'Vote adjourned', false, 'below', 'middle', true],
+      [2026, 5, 'Kept on table', false, 'above', 'middle', false],
+      [2026, 12, 'Decision point', true, 'low', 'end', true]
+    ]);
+
+    var room = el('g', { class: 'layer' }, tl);
+    var rx = tx(2027, 4);
+    el('rect', { x: rx, y: 84, width: X1 + 20 - rx, height: 300, fill: kelp, opacity: 0.12 }, room);
+    el('rect', { x: rx, y: 84, width: 4, height: 300, fill: kelp }, room);
+    ['FEWsLab', 'observers', 'from 2027'].forEach(function (t, i) {
+      el('text', { x: rx + 12, y: 104 + i * 17, 'font-size': 13, 'font-weight': i < 2 ? 600 : 400, fill: kelp }, room, t);
+    });
+
+    var link = el('g', { class: 'layer' }, tl);
+    var lx1 = tx(2026, 12), lx2 = tx(2027, 1);
+    el('path', { d: 'M ' + lx1 + ' 296 C ' + (lx1 + 40) + ' 262, ' + (lx2 + 40) + ' 228, ' + lx2 + ' 194',
+      fill: 'none', stroke: css('--fd-fg', scope), 'stroke-width': 1.5, 'stroke-dasharray': '4 5' }, link);
+    ['Same ships,', 'same waters'].forEach(function (t, i) {
+      el('text', { x: rx + 12, y: 240 + i * 17, 'font-size': 13 }, link, t);
+    });
+
+    return function (step) {
+      show(waffle, step === 0);
+      show(tl, step >= 1);
+      show(bbnj, step >= 1);
+      show(imo, step >= 2);
+      show(link, step >= 3);
+      show(room, step >= 4);
+    };
+  }
+
+  /* ---------- 3. Formula 1: footprint, then levers ---------- */
+  function f1(host, scope, m) {
+    var W = m ? 420 : 640, H = m ? 430 : 420;
+    var s = svgRoot(host, W, H);
+    var accent = css('--fd-accent', scope), bar = css('--fd-bar', scope), signal = '#f4b942';
+    var LX = m ? 0 : 190, RX = W - 70;
+
+    // Row label sits left on desktop, above the bar on phones.
+    function row(g, y, label, w, value, fill) {
+      if (m) el('text', { x: 0, y: y - 8, 'font-size': 14 }, g, label);
+      else el('text', { x: LX - 14, y: y + 21, 'text-anchor': 'end', 'font-size': 14 }, g, label);
+      var rc = el('rect', { x: LX, y: y, width: w, height: m ? 26 : 32, fill: fill, class: 'mark' }, g);
+      if (value) el('text', { x: LX + w + 8, y: y + (m ? 18 : 21), 'font-size': 14, 'font-weight': 600 }, g, value);
+      return rc;
+    }
+
+    var foot = el('g', { class: 'layer' }, s);
+    el('text', { x: 0, y: 30, 'font-size': 15, 'font-weight': 600 }, foot, 'Share of 2019 footprint (256,551 t CO₂)');
+    var rows = [['Logistics', 45.0, 'move'], ['Business travel', 27.7, 'move'], ['Factories and facilities', 19.3, ''], ['Event operations', 7.3, ''], ['Race cars', 0.7, 'car']];
+    var rects = rows.map(function (r, i) {
+      var w = Math.max(3, (r[1] / 50) * (RX - LX));
+      return [row(foot, (m ? 86 : 70) + i * (m ? 66 : 60), r[0], w, r[1].toFixed(1) + '%', bar), r[2]];
+    });
+
+    var lev = el('g', { class: 'layer' }, s);
+    el('text', { x: 0, y: 30, 'font-size': 15, 'font-weight': 600 }, lev, 'Cut in net emissions, each lever tested alone');
+    [['Half of staff remote', 15.5], ['Aviation fuel at 20%', 11], ['A fifth by rail or sea', 6]].forEach(function (r, i) {
+      row(lev, (m ? 86 : 80) + i * 72, r[0], (r[1] / 20) * (RX - LX), r[1] + '%', bar);
+    });
+    var cal = el('g', { class: 'layer' }, lev);
+    var cy = (m ? 86 : 80) + 3 * 72;
+    if (m) el('text', { x: 0, y: cy - 8, 'font-size': 14 }, cal, 'Regional calendar');
+    else el('text', { x: LX - 14, y: cy + 21, 'text-anchor': 'end', 'font-size': 14 }, cal, 'Regional calendar');
+    el('rect', { x: LX + 1, y: cy, width: RX - LX, height: m ? 26 : 32, fill: 'none', stroke: accent, 'stroke-width': 2, 'stroke-dasharray': '6 5' }, cal);
+    el('text', { x: LX + 12, y: cy + (m ? 18 : 21), 'font-size': 13.5, class: 't-accent', 'font-weight': 600 }, cal, 'Possibly largest. Politically hardest.');
+    el('text', { x: 0, y: H - 12, 'font-size': 12.5, class: 't-muted' }, lev, 'Effects are not additive. Results from the public FEWsLab model.');
+
+    return function (step) {
+      show(foot, step <= 1);
+      show(lev, step >= 2);
+      show(cal, step >= 3);
+      rects.forEach(function (p) {
+        var on = (step === 0 && p[1] === 'car') || (step === 1 && p[1] === 'move');
+        p[0].setAttribute('fill', on ? signal : bar);
+        p[0].style.opacity = on ? 1 : 0.35;
+      });
+    };
+  }
+
+  /* ---------- 4. Aid network ---------- */
+  function aid(host, scope, m) {
+    var W = m ? 420 : 640, H = m ? 470 : 440, cx = W / 2, cy = m ? 230 : 210;
+    var rm = m ? [92, 92] : [115, 105], ro = m ? [190, 168] : [245, 175];
+    var s = svgRoot(host, W, H);
+    var fg = css('--fd-fg', scope), muted = css('--fd-muted', scope), shoal = '#5fa8c9', kelp = '#a2c744';
+
+    var mid = [], outer = [];
+    for (var i = 0; i < 7; i++) { var a = -Math.PI / 2 + i * 2 * Math.PI / 7; mid.push([cx + rm[0] * Math.cos(a), cy + rm[1] * Math.sin(a)]); }
+    for (var j = 0; j < 14; j++) { var b = -Math.PI / 2 + (j + 0.5) * 2 * Math.PI / 14; outer.push([cx + ro[0] * Math.cos(b), cy + ro[1] * Math.sin(b)]); }
+
+    var hubOnly = { 2: 1, 5: 1, 9: 1, 12: 1 }, relinked = { 2: 1, 5: 1, 12: 1 };
+    var gOld = el('g', {}, s), gHub = el('g', {}, s), gNew = el('g', { class: 'layer' }, s), gNodes = el('g', {}, s);
+    var hubEdges = [];
+    function line(g, p, q, st, w, op) { return el('line', { x1: p[0], y1: p[1], x2: q[0], y2: q[1], stroke: st, 'stroke-width': w, opacity: op == null ? 1 : op, class: 'mark' }, g); }
+    mid.forEach(function (p) { hubEdges.push(line(gHub, [cx, cy], p, fg, 1.6)); });
+    Object.keys(hubOnly).forEach(function (k) { hubEdges.push(line(gHub, [cx, cy], outer[k], fg, 1.2)); });
+    outer.forEach(function (p, k) { if (!hubOnly[k]) line(gOld, mid[Math.round(k / 2) % 7], p, fg, 1, 0.45); });
+    [[0, 1], [4, 5]].forEach(function (pr) { line(gOld, mid[pr[0]], mid[pr[1]], fg, 1, 0.45); });
+    [[2, 1], [5, 3], [12, 6]].forEach(function (pr) { line(gNew, outer[pr[0]], mid[pr[1]], kelp, 2.4); });
+    [[0, 2], [3, 5]].forEach(function (pr) { line(gNew, mid[pr[0]], mid[pr[1]], kelp, 2.4); });
+
+    var hub = el('circle', { cx: cx, cy: cy, r: 26, fill: shoal, stroke: fg, 'stroke-width': 0, class: 'mark' }, gNodes);
+    var hubLabel = el('text', { x: cx, y: cy + 5, 'text-anchor': 'middle', 'font-size': 12.5, 'font-weight': 600, fill: '#062a3d' }, gNodes, 'Donor');
+    mid.forEach(function (p) { el('circle', { cx: p[0], cy: p[1], r: 13, fill: shoal }, gNodes); });
+    var outerNodes = outer.map(function (p) { return el('circle', { cx: p[0], cy: p[1], r: 8, fill: fg, class: 'mark' }, gNodes); });
+
+    var legend = el('g', {}, s), ly = H - 22;
+    el('circle', { cx: 8, cy: m ? ly - 24 : ly, r: 7, fill: shoal }, legend);
+    el('text', { x: 22, y: (m ? ly - 24 : ly) + 5, 'font-size': 12.5 }, legend, 'UN agencies and international NGOs');
+    var l2 = m ? 8 : 290;
+    el('circle', { cx: l2, cy: ly, r: 5, fill: fg }, legend);
+    el('text', { x: l2 + 14, y: ly + 5, 'font-size': 12.5 }, legend, 'Local organizations');
+    var newKey = el('g', { class: 'layer' }, legend), l3 = m ? 170 : 450;
+    el('line', { x1: l3, x2: l3 + 24, y1: ly, y2: ly, stroke: kelp, 'stroke-width': 3 }, newKey);
+    el('text', { x: l3 + 32, y: ly + 5, 'font-size': 12.5 }, newKey, 'New links');
+
+    var waves = el('g', { class: 'layer' }, s);
+    el('text', { x: W, y: 14, 'text-anchor': 'end', 'font-size': 13, 'font-weight': 600 }, waves, 'Repeated survey waves');
+    [0, 1, 2].forEach(function (k) {
+      el('rect', { x: W - 150 + k * 52, y: 24, width: 40, height: 8, fill: k < 2 ? kelp : 'none', stroke: kelp, 'stroke-width': 1.5 }, waves);
+    });
+
+    return function (step) {
+      var gone = step >= 1;
+      hubEdges.forEach(function (e) { e.style.opacity = gone ? 0 : 0.8; });
+      hub.setAttribute('fill', gone ? 'none' : shoal);
+      hub.setAttribute('stroke-width', gone ? 2 : 0);
+      hub.setAttribute('stroke-dasharray', gone ? '4 4' : '');
+      hubLabel.setAttribute('fill', gone ? muted : '#062a3d');
+      outerNodes.forEach(function (n, k) {
+        var stranded = gone && hubOnly[k] && !(step >= 2 && relinked[k]);
+        n.setAttribute('fill', stranded ? 'none' : fg);
+        n.setAttribute('stroke', stranded ? muted : 'none');
+        n.setAttribute('stroke-width', stranded ? 1.5 : 0);
+      });
+      show(gNew, step >= 2);
+      show(newKey, step >= 2);
+      show(waves, step >= 3);
+    };
+  }
+
+  var builders = { clocks: clocks, ocean: ocean, f1: f1, aid: aid };
+
+  function init() {
+    var blocks = document.querySelectorAll('.fd-scrolly');
+    blocks.forEach(function (block) {
+      var name = block.getAttribute('data-graphic');
+      var host = block.querySelector('.fd-svg');
+      if (!builders[name]) return;
+      var steps = block.querySelectorAll('.fd-step');
+      var current = 0, mode = null, set = null;
+      function build() {
+        var m = host.clientWidth < 560;
+        if (m === mode) return;
+        mode = m;
+        host.innerHTML = '';
+        set = builders[name](host, block, m);
+        set(current);
+        if (reduce) host.querySelectorAll('.layer, .mark').forEach(function (n) { n.style.transition = 'none'; });
+      }
+      function activate(i) {
+        current = i;
+        steps.forEach(function (st, k) { st.classList.toggle('is-active', k === i); });
+        set(i);
+      }
+      build();
+      activate(0);
+      window.addEventListener('resize', build);
+      if (!('IntersectionObserver' in window)) { activate(steps.length - 1); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting) activate(+en.target.getAttribute('data-step'));
+        });
+      }, { rootMargin: '-45% 0px -45% 0px', threshold: 0 });
+      steps.forEach(function (st) { io.observe(st); });
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
+</script>
