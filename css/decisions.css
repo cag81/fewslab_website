@@ -1,0 +1,203 @@
+/* Research for Decisions: scroll story page.
+   Palette is drawn from the lab theme and pushed toward the ocean. */
+:root {
+  --fd-abyss: #062a3d;
+  --fd-tide: #003e5c;
+  --fd-chart: #eef3f6;
+  --fd-signal: #f4b942;
+  --fd-kelp: #a2c744;
+  --fd-ink: #0f2230;
+  --fd-shoal: #5fa8c9;
+  --fd-serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --fd-sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --fd-nav: 3.75rem;
+}
+
+/* Let the story run edge to edge inside Quarto's custom layout. */
+#quarto-content, main.content { max-width: none; padding: 0; margin: 0; }
+main.content > .fd { margin: 0; }
+#quarto-content { padding-top: 0 !important; }
+
+.fd {
+  font-family: var(--fd-serif);
+  font-size: 1.1875rem;
+  line-height: 1.6;
+  color: var(--fd-fg);
+  background: var(--fd-bg);
+  font-optical-sizing: auto;
+}
+.fd a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.fd a:hover { color: var(--fd-accent); }
+.fd :focus-visible { outline: 3px solid var(--fd-signal); outline-offset: 3px; border-radius: 2px; }
+.fd h1, .fd h2, .fd h3 { font-family: var(--fd-serif); color: inherit; letter-spacing: -0.01em; }
+.fd h2 { font-size: clamp(1.75rem, 3.6vw, 2.6rem); font-weight: 500; line-height: 1.15; margin: 0 0 1rem; border-bottom: 0; padding-bottom: 0; }
+.fd h3 { font-size: 1.35rem; font-weight: 600; margin: 2.25rem 0 0.5rem; }
+.fd p { margin: 0 0 1rem; }
+
+/* Two surface themes. Graphics read their colors from these. */
+.fd-dark {
+  --fd-bg: var(--fd-abyss);
+  --fd-fg: #e7eff3;
+  --fd-muted: #8fa9b8;
+  --fd-faint: rgba(231, 239, 243, 0.16);
+  --fd-accent: var(--fd-signal);
+  --fd-bar: var(--fd-shoal);
+  --fd-card: rgba(6, 42, 61, 0.9);
+  background: var(--fd-bg);
+  color: var(--fd-fg);
+}
+.fd-light, .fd-paper {
+  --fd-bg: var(--fd-chart);
+  --fd-fg: var(--fd-ink);
+  --fd-muted: #5d7584;
+  --fd-faint: rgba(15, 34, 48, 0.14);
+  --fd-accent: #b07a06;
+  --fd-bar: var(--fd-tide);
+  --fd-card: rgba(238, 243, 246, 0.94);
+  background: var(--fd-bg);
+  color: var(--fd-fg);
+}
+.fd-paper { --fd-bg: #ffffff; }
+
+/* Hero */
+.fd-hero {
+  min-height: calc(100vh - var(--fd-nav));
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  padding: clamp(3rem, 9vh, 7rem) clamp(1rem, 6vw, 6rem) 2rem;
+}
+.fd-hero-inner { max-width: 52rem; align-self: center; }
+.fd-hero-org { font-family: var(--fd-sans); font-size: 0.95rem; color: var(--fd-muted); margin-bottom: 1.5rem; }
+.fd-hero-title {
+  font-size: clamp(2.6rem, 7.4vw, 6rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.75rem;
+  max-width: 14ch;
+}
+.fd-hero-lede { font-size: clamp(1.15rem, 1.8vw, 1.4rem); max-width: 38rem; color: #cfdde5; }
+
+/* The recurring device: a gold rule marks a decision date. */
+.fd-dates {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.fd-dates li {
+  border-left: 3px solid var(--fd-signal);
+  padding: 0.15rem 0 0.15rem 1rem;
+}
+.fd-date { display: block; font-size: clamp(1.4rem, 2.4vw, 2rem); line-height: 1.1; color: var(--fd-signal); }
+.fd-date-what { display: block; font-family: var(--fd-sans); font-size: 0.9rem; line-height: 1.45; color: var(--fd-muted); margin-top: 0.4rem; max-width: 22rem; }
+.fd-scrollcue { font-family: var(--fd-sans); font-size: 0.85rem; color: var(--fd-muted); margin: 2.5rem 0 0; }
+
+/* Sections */
+.fd-section { padding: clamp(4rem, 10vh, 7rem) clamp(1rem, 6vw, 6rem); }
+.fd-intro { max-width: 44rem; margin-bottom: 2rem; }
+.fd-kicker { font-family: var(--fd-sans); font-size: 0.95rem; font-weight: 600; color: var(--fd-accent); margin-bottom: 0.75rem; }
+.fd-lede { font-size: 1.25rem; color: var(--fd-fg); opacity: 0.9; }
+
+/* Scrolly: text steps on the left, sticky graphic on the right. */
+.fd-scrolly {
+  display: grid;
+  grid-template-columns: minmax(18rem, 2fr) 3fr;
+  grid-template-areas: "steps graphic";
+  gap: clamp(1.5rem, 4vw, 4rem);
+  align-items: start;
+}
+.fd-graphic {
+  grid-area: graphic;
+  position: sticky;
+  top: var(--fd-nav);
+  height: calc(100vh - var(--fd-nav));
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.fd-svg svg { width: 100%; height: auto; max-height: calc(100vh - var(--fd-nav) - 4rem); display: block; overflow: visible; }
+.fd-graphic figcaption { font-family: var(--fd-sans); font-size: 0.8rem; color: var(--fd-muted); margin-top: 0.75rem; }
+.fd-steps { grid-area: steps; padding: 30vh 0 40vh; }
+.fd-step { min-height: 70vh; display: flex; flex-direction: column; justify-content: center; }
+.fd-step > p { max-width: 30rem; }
+.js .fd-step { opacity: 0.32; transition: opacity 300ms ease; }
+.js .fd-step.is-active { opacity: 1; }
+.fd-links { font-family: var(--fd-sans); font-size: 0.95rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.fd-links a { font-weight: 600; }
+
+/* SVG text and marks */
+.fd svg text { font-family: var(--fd-sans); fill: var(--fd-fg); }
+.fd svg .t-muted { fill: var(--fd-muted); }
+.fd svg .t-accent { fill: var(--fd-accent); }
+.fd svg .t-big { font-family: var(--fd-serif); }
+.fd svg .rule { stroke: var(--fd-faint); }
+.fd svg .layer { transition: opacity 500ms ease; }
+.fd svg .mark { transition: opacity 500ms ease, fill 500ms ease, stroke 500ms ease, width 600ms ease, x 600ms ease; }
+
+/* Prose sections */
+.fd-prose .fd-col, .fd-col { max-width: 40rem; }
+.fd-needs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  margin: 2.5rem 0 3rem;
+  max-width: 64rem;
+}
+.fd-needs > div { border-top: 3px solid var(--fd-tide); padding-top: 1rem; }
+.fd-needs dt { font-size: 1.3rem; font-weight: 600; margin-bottom: 0.4rem; }
+.fd-needs dd { margin: 0; font-size: 1.05rem; }
+
+.fd-who { display: grid; grid-template-columns: 16rem minmax(0, 40rem); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; }
+.fd-who img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 50%; }
+
+.fd details { border-top: 1px solid var(--fd-faint); padding: 1rem 0; }
+.fd details:last-child { border-bottom: 1px solid var(--fd-faint); }
+.fd summary { cursor: pointer; font-weight: 600; font-size: 1.1rem; }
+.fd details p { margin: 0.75rem 0 0; }
+
+.fd-contact { padding: clamp(5rem, 14vh, 9rem) clamp(1rem, 6vw, 6rem); border-top: 3px solid var(--fd-signal); }
+.fd-contact h2 { font-size: clamp(2rem, 4.4vw, 3.2rem); font-weight: 400; }
+.fd-button {
+  display: inline-block;
+  font-family: var(--fd-sans);
+  font-weight: 600;
+  font-size: 1.05rem;
+  background: var(--fd-signal);
+  color: var(--fd-abyss) !important;
+  padding: 0.85rem 1.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+.fd-button:hover { background: #ffd27a; }
+.fd-email { font-family: var(--fd-sans); color: var(--fd-muted); font-size: 0.95rem; }
+
+/* Phones and narrow tablets: graphic pins to the top, text cards scroll over it. */
+@media (max-width: 860px) {
+  .fd-dates { grid-template-columns: 1fr; gap: 1.1rem; }
+  .fd-scrolly { display: block; }
+  .fd-graphic { height: 56vh; top: var(--fd-nav); z-index: 0; padding-top: 0.5rem; }
+  .fd-svg svg { max-height: 48vh; }
+  .fd-steps { position: relative; z-index: 1; padding: 10vh 0 30vh; margin-top: -10vh; }
+  .fd-step { min-height: 75vh; justify-content: flex-end; }
+  .fd-step > p, .fd-step > .fd-links { background: var(--fd-card); padding: 1rem 1.1rem; margin: 0; border-radius: 4px; box-shadow: 0 0 0 1px var(--fd-faint); }
+  .fd-step > .fd-links { margin-top: 0.5rem; }
+  .js .fd-step { opacity: 1; }
+  .fd-needs { grid-template-columns: 1fr; }
+  .fd-who { grid-template-columns: 1fr; }
+  .fd-who img { max-width: 11rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fd svg .layer, .fd svg .mark, .js .fd-step { transition: none !important; }
+}
+
+/* Without JavaScript, every step reads in full and graphics stay hidden. */
+html:not(.js) .fd-graphic { display: none; }
+html:not(.js) .fd-scrolly { display: block; }
+html:not(.js) .fd-steps { padding: 0; }
+html:not(.js) .fd-step { min-height: 0; }
