@@ -156,8 +156,7 @@ main.content > .fd { margin: 0; }
 
 .fd details { border-top: 1px solid var(--fd-faint); padding: 1rem 0; }
 .fd details:last-child { border-bottom: 1px solid var(--fd-faint); }
-.fd summary { cursor: pointer; font-weight: 600; font-size: 1.1rem; }
-.fd details p { margin: 0.75rem 0 0; }
+.fd summary { cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--fd-fg); background: none; font-family: var(--fd-serif); border-radius: 0; padding-left: 0; margin-bottom: 0; }.fd details p { margin: 0.75rem 0 0; }
 
 .fd-contact { padding: clamp(5rem, 14vh, 9rem) clamp(1rem, 6vw, 6rem); border-top: 3px solid var(--fd-signal); }
 .fd-contact h2 { font-size: clamp(2rem, 4.4vw, 3.2rem); font-weight: 400; }
