@@ -1,16 +1,16 @@
 ---
 pagetitle: "Research for Decisions | FEWsLab at George Washington University"
-description: "FEWsLab at George Washington University, led by Caitlin Grady, builds decision-support research for choices made with imperfect data. Examples include the High Seas Treaty (BBNJ), IMO shipping decarbonization, corporate net zero targets, humanitarian aid, and data center climate risk."
+description: "FEWsLab at George Washington University, led by Caitlin Grady, builds decision-support research for choices made with imperfect data. Examples include the High Seas Treaty (BBNJ), IMO shipping decarbonization, Chesapeake Bay agriculture, corporate net zero targets, humanitarian aid, and data center climate risk."
 image: images/lab/caitlin_grady.jpg
 page-layout: custom
 toc: false
 anchor-sections: false
 open-graph:
   title: "Research for Decisions | FEWsLab"
-  description: "Models and data for people making big decisions without all the information they'd like. Examples from ocean treaties, corporate climate targets, and humanitarian aid."
+  description: "Models and data for people making big decisions without all the information they'd like. Examples from ocean treaties, food and agriculture, corporate climate targets, and humanitarian aid."
 twitter-card:
   title: "Research for Decisions | FEWsLab"
-  description: "Models and data for people making big decisions without all the information they'd like. Examples from ocean treaties, corporate climate targets, and humanitarian aid."
+  description: "Models and data for people making big decisions without all the information they'd like. Examples from ocean treaties, food and agriculture, corporate climate targets, and humanitarian aid."
 css: css/decisions.css
 include-in-header: _includes/decisions-head.html
 include-after-body: _includes/decisions-scroll.html
@@ -68,7 +68,7 @@ include-after-body: _includes/decisions-scroll.html
     <h2 id="bridge-h">Working with imperfect data</h2>
     <p>This line of work grew out of Dr. Grady's time at the U.S. Department of State, where she worked on the Montreal Protocol. That included the negotiations over the Kigali Amendment, which phases down HFCs, a group of potent greenhouse gases used in cooling, and the Multilateral Fund, which helps developing countries meet their commitments under the treaty. Her job was to bring analysis to negotiators while talks were still going and positions could still change. The data was rarely complete, and the negotiating calendar didn't wait for it. That experience shapes how the lab works today.</p>
     <p>The people we work with are usually in a similar spot. They are committing to something large, in a system they can only partly see, with data that's patchy or out of date. So we rarely hand anyone a single number. We build models that let people change the assumptions they're unsure about and see what happens. Some assumptions hardly move the result. Others move it a lot, and those are the ones worth discussing.</p>
-    <p>The three projects below are examples. They cover very different ground, and they aren't the only things we work on.</p>
+    <p>The four projects below are examples. They cover very different ground, and they aren't the only things we work on.</p>
   </div>
 </section>
 
@@ -77,7 +77,7 @@ include-after-body: _includes/decisions-scroll.html
   <div class="fd-intro">
     <p class="fd-kicker">An example from ocean governance</p>
     <h2 id="ocean-h">Governing the high seas and the ships that cross them</h2>
-    <p class="fd-lede">When governments sign onto a treaty or a regulation, they usually live with it for decades. Two negotiations are shaping the future of the ocean right now. The High Seas Treaty will set how marine life beyond national borders is protected. At the International Maritime Organization (IMO), countries are deciding whether shipping will pay a global price on its emissions. Nobody knows exactly how those two sets of rules will interact, or how shipping companies will respond. We model a range of outcomes so delegations can see what they might be signing up for.</p>
+    <p class="fd-lede">When governments sign onto a treaty or a regulation, they usually live with it for decades. Two negotiations are shaping the future of the ocean right now. The High Seas Treaty will set how marine life beyond national borders is protected. At the International Maritime Organization (IMO), countries are deciding whether shipping will pay a global price on its emissions. Nobody knows exactly how those two sets of rules will interact, or how shipping companies will respond. We model a range of outcomes so delegations can see what they might be signing up for. The ocean is also a food system. Protected areas on the high seas could change where fishing fleets operate, and shipping rules affect the cost of moving food around the world.</p>
     <p class="fd-lede">Some of the questions in front of the High Seas Treaty parties will be familiar to anyone who worked on the Montreal Protocol, like who pays into the treaty's fund and how countries qualify for support.</p>
   </div>
   <div class="fd-scrolly" data-graphic="ocean">
@@ -95,8 +95,32 @@ include-after-body: _includes/decisions-scroll.html
   </div>
 </section>
 
+<!-- 2b. FOOD AND AGRICULTURE -->
+<section class="fd-section fd-light" id="food-agriculture" aria-labelledby="bay-h">
+  <div class="fd-intro">
+    <p class="fd-kicker">An example from food and agriculture</p>
+    <h2 id="bay-h">Following nitrogen from the farm to the Chesapeake Bay</h2>
+    <p class="fd-lede">Agriculture is the largest source of nitrogen reaching the Chesapeake Bay, about 40 percent of the total. For decades, cleanup efforts have focused on the farm field: how much fertilizer goes on, whether cover crops get planted. The Bay still isn't meeting its goals. We think part of the reason is where people have been looking.</p>
+    <p class="fd-lede">Dr. Grady chairs the Chesapeake Bay Program's Agriculture Workgroup, which brings together states, federal agencies, farm groups, and researchers to plan how agriculture will help meet the Bay's water quality goals. The workgroup is now setting its plan for 2027 to 2030.</p>
+  </div>
+  <div class="fd-scrolly" data-graphic="bay">
+    <figure class="fd-graphic" aria-label="Agriculture's share of nitrogen reaching the Bay and progress on farm practices, then the seven stages of the food chain, then modeled nitrogen losses today, in 2050 with no new action, and in 2050 with changes across the whole chain.">
+      <div class="fd-svg"></div>
+      <figcaption>Sources: Chesapeake Bay Program; Gomez et al., <i>Environmental Research Letters</i> (2024); Mohammadpour et al., <i>Journal of Environmental Quality</i> (2026).</figcaption>
+    </figure>
+    <div class="fd-steps">
+      <div class="fd-step" data-step="0"><p>By 2019, only 39 percent of the farm practices needed to meet the Bay's 2025 nitrogen target were in place. Field by field, progress has been slow.</p></div>
+      <div class="fd-step" data-step="1"><p>We built a model that follows nitrogen through seven stages of the food system: growing crops, raising animals, processing, and finally the food people eat. Nitrogen can escape at every stage, not just on the field.</p></div>
+      <div class="fd-step" data-step="2"><p>We then asked which assumptions matter most. Fertilizer rates matter, as expected. But how efficiently animals turn feed into weight turned out to be just as important. That lever rarely comes up in Bay policy discussions.</p></div>
+      <div class="fd-step" data-step="3"><p>Looking ahead to 2050, more food production and a changing climate push nitrogen losses up. Modest improvements in fertilizer use and animal feed don't get the Bay to its targets.</p></div>
+      <div class="fd-step" data-step="4"><p>Changes across the whole food chain could cut nitrogen losses by more than half, even as production grows. Those changes go well beyond business as usual. Our job is to show the workgroup which ones would make the biggest difference.</p>
+        <p class="fd-links"><a href="https://nitrogen-project.fewslab.org">Try the nitrogen dashboard</a> <a href="https://doi.org/10.1088/1748-9326/ad5d0b">Read the 2024 paper</a> <a href="https://doi.org/10.1002/jeq2.70142">Read the 2026 paper</a></p></div>
+    </div>
+  </div>
+</section>
+
 <!-- 3. CORPORATE CLIMATE / F1 -->
-<section class="fd-section fd-light" id="corporate-climate" aria-labelledby="f1-h">
+<section class="fd-section fd-dark" id="corporate-climate" aria-labelledby="f1-h">
   <div class="fd-intro">
     <p class="fd-kicker">An example from corporate climate commitments</p>
     <h2 id="f1-h">Testing a net zero pledge, one lever at a time</h2>
@@ -119,7 +143,7 @@ include-after-body: _includes/decisions-scroll.html
 </section>
 
 <!-- 4. HUMANITARIAN -->
-<section class="fd-section fd-dark" id="humanitarian-aid" aria-labelledby="aid-h">
+<section class="fd-section fd-light" id="humanitarian-aid" aria-labelledby="aid-h">
   <div class="fd-intro">
     <p class="fd-kicker">An example from humanitarian aid</p>
     <h2 id="aid-h">Humanitarian aid after the 2025 funding shock</h2>
@@ -145,7 +169,7 @@ include-after-body: _includes/decisions-scroll.html
 <section class="fd-section fd-paper fd-prose" id="more-work" aria-labelledby="more-h">
   <div class="fd-col">
     <h2 id="more-h">More of our work</h2>
-    <p>The same approach runs through the rest of the lab's research. We've mapped where U.S. data centers face the most risk from heat, water stress, and grid emissions. We've studied how drought and climate change affect hydropower and the electric grid. And we've tracked how nitrogen and phosphorus move through the Chesapeake Bay's food system.</p>
+    <p>The same approach runs through the rest of the lab's research. We've mapped where U.S. data centers face the most risk from heat, water stress, and grid emissions. We've studied how drought and climate change affect hydropower and the electric grid. And we've studied food access in cities.</p>
     <p class="fd-links"><a href="projects.html">See all projects</a></p>
   </div>
 </section>
@@ -184,7 +208,7 @@ include-after-body: _includes/decisions-scroll.html
     <div>
       <h2 id="who-h">Who leads this work</h2>
       <p>Caitlin Grady leads FEWsLab. She is Associate Professor of Engineering Management and Systems Engineering at George Washington University and Director of Research and Policy at the <a href="https://globalfoodinstitute.gwu.edu/">Global Food Institute</a>.</p>
-      <p>At the U.S. Department of State, she worked on the Montreal Protocol, including the Kigali Amendment and the Multilateral Fund, and brought analysis to negotiators while decisions were being made. She has also worked at the U.S. Department of Energy and in the U.S. House of Representatives. Her lab contributed to the Global Adaptation Mapping Initiative, which informed the IPCC's Sixth Assessment Report.</p>
+      <p>At the U.S. Department of State, she worked on the Montreal Protocol, including the Kigali Amendment and the Multilateral Fund, and brought analysis to negotiators while decisions were being made. She has also worked at the U.S. Department of Energy and in the U.S. House of Representatives. She chairs the Chesapeake Bay Program's Agriculture Workgroup. Her lab contributed to the Global Adaptation Mapping Initiative, which informed the IPCC's Sixth Assessment Report.</p>
       <p>FEWsLab research has been funded by the National Science Foundation, the U.S. Department of Agriculture, the National Institute of Standards and Technology, and the Patrick J. McGovern Foundation. The lab's work has appeared on NPR and Marketplace and in The Conversation.</p>
       <p class="fd-links"><a href="lab.html">Meet the team</a> <a href="projects.html">All projects</a> <a href="research.html">Publications</a></p>
     </div>
@@ -204,12 +228,16 @@ include-after-body: _includes/decisions-scroll.html
       <p>Sachi Nandurkar and Caitlin Grady of FEWsLab built a systems scenario model of Formula 1's path to net zero by 2030. It was published in <i>Frontiers in Climate</i> in 2026, with a public dashboard at formula-one-netzero.fewslab.org. The same approach applies to corporate net zero and ESG commitments with large logistics and travel emissions.</p>
     </details>
     <details>
+      <summary>What does FEWsLab study about the Chesapeake Bay?</summary>
+      <p>FEWsLab models how nitrogen moves through the Chesapeake Bay watershed's food system, from crops and livestock through processing and consumption. Its research finds that feed conversion efficiency in animal agriculture is as important as fertilizer rates for reducing nitrogen losses, and that changes across the whole food chain could cut losses by more than half by 2050. Dr. Caitlin Grady chairs the Chesapeake Bay Program's Agriculture Workgroup.</p>
+    </details>
+    <details>
       <summary>What is AidTrack?</summary>
       <p>AidTrack is a repeated survey of humanitarian and development practitioners run by FEWsLab and the Global Food Institute at George Washington University. It tracks how organizations have adapted since the 2025 U.S. foreign aid freeze and the dismantling of USAID, including organizations that have become more financially stable and more trusted locally. The findings are meant to inform how governments and foundations rebuild humanitarian aid.</p>
     </details>
     <details>
       <summary>What kinds of decisions does FEWsLab work on?</summary>
-      <p>FEWsLab builds decision-support research for choices made with incomplete data. Examples include the High Seas Treaty (BBNJ) and IMO shipping decarbonization, corporate net zero targets such as Formula 1's 2030 goal, humanitarian aid after the 2025 U.S. foreign aid freeze, data center siting and climate risk, and climate risk to the electric grid.</p>
+      <p>FEWsLab builds decision-support research for choices made with incomplete data. Examples include the High Seas Treaty (BBNJ) and IMO shipping decarbonization, corporate net zero targets such as Formula 1's 2030 goal, nitrogen pollution from agriculture in the Chesapeake Bay, humanitarian aid after the 2025 U.S. foreign aid freeze, data center siting and climate risk, and climate risk to the electric grid.</p>
     </details>
     <details>
       <summary>Where did this approach come from?</summary>

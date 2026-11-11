@@ -2,7 +2,7 @@
 
 > FEWsLab is a research group at George Washington University led by Dr. Caitlin Grady, Associate Professor of Engineering Management and Systems Engineering and Director of Research and Policy at the GW Global Food Institute. The lab builds models and data for decisions made with imperfect information, and focuses on showing which unknowns matter most.
 
-The lab's decision-support work grew out of Dr. Grady's experience at the U.S. Department of State, where she worked on the Montreal Protocol, including the Kigali Amendment negotiations and the Multilateral Fund, and brought analysis to negotiators during the talks. She has also worked at the U.S. Department of Energy and in the U.S. House of Representatives. Lab research has been funded by the National Science Foundation, the U.S. Department of Agriculture, the National Institute of Standards and Technology, and the Patrick J. McGovern Foundation.
+The lab's decision-support work grew out of Dr. Grady's experience at the U.S. Department of State, where she worked on the Montreal Protocol, including the Kigali Amendment negotiations and the Multilateral Fund, and brought analysis to negotiators during the talks. She has also worked at the U.S. Department of Energy and in the U.S. House of Representatives. She chairs the Chesapeake Bay Program's Agriculture Workgroup. Lab research has been funded by the National Science Foundation, the U.S. Department of Agriculture, the National Institute of Standards and Technology, and the Patrick J. McGovern Foundation.
 
 ## Approach
 
@@ -11,12 +11,13 @@ FEWsLab models present results as ranges rather than single estimates. Users can
 ## Examples of the lab's work
 
 - [Research for Decisions](https://www.fewslab.org/decisions.html): Overview of the lab's decision-support research and how foundations and philanthropists can partner with the lab.
-- Ocean governance: How the High Seas Treaty (BBNJ Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction) and the International Maritime Organization (IMO) Net Zero Framework for shipping interact. The lab plans to follow BBNJ Conferences of the Parties and IMO Marine Environment Protection Committee sessions from 2027.
+- Ocean governance: How the High Seas Treaty (BBNJ Agreement on Marine Biological Diversity of Areas beyond National Jurisdiction) and the International Maritime Organization (IMO) Net Zero Framework for shipping interact. The lab plans to follow BBNJ Conferences of the Parties and IMO Marine Environment Protection Committee sessions from 2027. The work also covers the ocean as a food system, including fishing and the shipping of food.
+- Food and agriculture: Models that follow nitrogen through seven stages of the Chesapeake Bay watershed's food system, from crops and livestock through processing and consumption. Findings: feed conversion efficiency matters as much as fertilizer rates, losses rise by 2050 without new action, and changes across the whole food chain could cut losses by more than half (Gomez et al., Environmental Research Letters, 2024; Mohammadpour et al., Journal of Environmental Quality, 2026). [Dashboard](https://nitrogen-project.fewslab.org), [2024 paper](https://doi.org/10.1088/1748-9326/ad5d0b), [2026 paper](https://doi.org/10.1002/jeq2.70142).
 - Corporate climate commitments: A public systems scenario model of Formula 1's path to net zero by 2030 (Nandurkar and Grady, Frontiers in Climate, 2026). Users can set contested assumptions such as carbon offset effectiveness. The approach applies to corporate net zero and ESG commitments dominated by logistics and travel emissions. [Dashboard](https://formula-one-netzero.fewslab.org/), [paper](https://doi.org/10.3389/fclim.2026.1854735).
 - Humanitarian aid: AidTrack, a repeated survey of humanitarian and development practitioners run with the GW Global Food Institute. It tracks how organizations have adapted since the 2025 U.S. foreign aid freeze and the dismantling of USAID, including organizations that have become more financially stable and more trusted locally, to inform how governments and foundations rebuild aid.
 - Data centers: Spatial analysis of where U.S. data centers face the most risk from heat, water stress, and grid emissions.
 - Energy systems: Climate and drought risk to hydropower and electric grid balancing authorities, energy security, and critical minerals in EV supply chains.
-- Food systems: Nitrogen and phosphorus flows in the Chesapeake Bay food system and urban food access.
+- Food systems: Urban food access.
 
 ## More
 
