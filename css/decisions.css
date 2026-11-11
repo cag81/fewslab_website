@@ -42,6 +42,7 @@ main.content > .fd { margin: 0; }
   --fd-faint: rgba(231, 239, 243, 0.16);
   --fd-accent: var(--fd-signal);
   --fd-bar: var(--fd-shoal);
+  --fd-green: #a2c744;
   --fd-card: rgba(6, 42, 61, 0.9);
   background: var(--fd-bg);
   color: var(--fd-fg);
@@ -53,6 +54,7 @@ main.content > .fd { margin: 0; }
   --fd-faint: rgba(15, 34, 48, 0.14);
   --fd-accent: #b07a06;
   --fd-bar: var(--fd-tide);
+  --fd-green: #5d7d16;
   --fd-card: rgba(238, 243, 246, 0.94);
   background: var(--fd-bg);
   color: var(--fd-fg);
@@ -156,7 +158,8 @@ main.content > .fd { margin: 0; }
 
 .fd details { border-top: 1px solid var(--fd-faint); padding: 1rem 0; }
 .fd details:last-child { border-bottom: 1px solid var(--fd-faint); }
-.fd summary { cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--fd-fg); background: none; font-family: var(--fd-serif); border-radius: 0; padding-left: 0; margin-bottom: 0; }.fd details p { margin: 0.75rem 0 0; }
+.fd summary { cursor: pointer; font-weight: 600; font-size: 1.1rem; color: var(--fd-fg); background: none; font-family: var(--fd-serif); border-radius: 0; padding-left: 0; margin-bottom: 0; }
+.fd details p { margin: 0.75rem 0 0; }
 
 .fd-contact { padding: clamp(5rem, 14vh, 9rem) clamp(1rem, 6vw, 6rem); border-top: 3px solid var(--fd-signal); }
 .fd-contact h2 { font-size: clamp(2rem, 4.4vw, 3.2rem); font-weight: 400; }
