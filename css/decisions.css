@@ -9,7 +9,7 @@
   --fd-ink: #0f2230;
   --fd-shoal: #5fa8c9;
   --fd-serif: "Newsreader", Georgia, "Times New Roman", serif;
-  --fd-sans: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+  --fd-sans: "Raleway", "Helvetica Neue", Arial, sans-serif;
   --fd-nav: 3.75rem;
 }
 
@@ -30,7 +30,7 @@ main.content > .fd { margin: 0; }
 .fd a:hover { color: var(--fd-accent); }
 .fd :focus-visible { outline: 3px solid var(--fd-signal); outline-offset: 3px; border-radius: 2px; }
 .fd h1, .fd h2, .fd h3 { font-family: var(--fd-serif); color: inherit; letter-spacing: -0.01em; }
-.fd h2 { font-size: clamp(1.75rem, 3.6vw, 2.6rem); font-weight: 500; line-height: 1.15; margin: 0 0 1rem; border-bottom: 0; padding-bottom: 0; }
+.fd h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 500; line-height: 1.15; margin: 0 0 1rem; border-bottom: 0; padding-bottom: 0; }
 .fd h3 { font-size: 1.35rem; font-weight: 600; margin: 2.25rem 0 0.5rem; }
 .fd p { margin: 0 0 1rem; }
 
@@ -71,7 +71,7 @@ main.content > .fd { margin: 0; }
 .fd-hero-inner { max-width: 52rem; align-self: center; }
 .fd-hero-org { font-family: var(--fd-sans); font-size: 0.95rem; color: var(--fd-muted); margin-bottom: 1.5rem; }
 .fd-hero-title {
-  font-size: clamp(2.6rem, 7.4vw, 6rem);
+  font-size: clamp(2.2rem, 6.2vw, 5rem);
   font-weight: 400;
   line-height: 1.02;
   letter-spacing: -0.025em;
@@ -162,7 +162,7 @@ main.content > .fd { margin: 0; }
 .fd details p { margin: 0.75rem 0 0; }
 
 .fd-contact { padding: clamp(5rem, 14vh, 9rem) clamp(1rem, 6vw, 6rem); border-top: 3px solid var(--fd-signal); }
-.fd-contact h2 { font-size: clamp(2rem, 4.4vw, 3.2rem); font-weight: 400; }
+.fd-contact h2 { font-size: clamp(1.75rem, 3.8vw, 2.7rem); font-weight: 400; }
 .fd-button {
   display: inline-block;
   font-family: var(--fd-sans);
